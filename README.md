@@ -1,2 +1,2 @@
-# alphonology.github.io
+# alphnology.github.io
 Web page
