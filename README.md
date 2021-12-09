@@ -1,2 +1,2 @@
-# alphnology.github.io
-Web page
+# website
+The Company Website
