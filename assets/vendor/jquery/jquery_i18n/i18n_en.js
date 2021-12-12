@@ -49,7 +49,7 @@ jQuery(document).ready(function () {
       //======= Values Section =======
       //
       //======= Services Section =======
-      'section-services-header': 'Servicios',
+      'section-services-header': 'Services',
       'section-services-details': 'Technological multi-services',
       'section-services-header-#1': 'Software development',
       'section-services-details-#1': 'We provide unprecedented support to our users by developing new applications, maintaining existing applications, and providing transformative solutions tailored to your business.',

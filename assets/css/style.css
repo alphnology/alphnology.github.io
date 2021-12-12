@@ -192,12 +192,15 @@ section {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  height    : 25px;
+  height    : 10px;
   font-size : 15px;
   transition: all 0.5s;
 }
 
-
+#topbar .languages {
+  position: absolute;
+  right   : 5%;
+}
 
 #topbar .languages ul {
   display   : flex;
