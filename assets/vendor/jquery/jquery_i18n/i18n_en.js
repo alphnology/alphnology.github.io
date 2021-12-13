@@ -13,6 +13,7 @@ jQuery(document).ready(function () {
     'en': {
       'title': 'Alphnology - Multiservices',
       'read-more': 'Read more',
+      'section-history': 'History',
       // ======= Header =======
       'header-navbar-home': 'Home',
       'header-navbar-about': 'About us',
@@ -25,7 +26,7 @@ jQuery(document).ready(function () {
       //======= Hero Section =======
       'section-hero-header': 'We offer solutions to grow your business',
       'section-hero-details': 'We are a team of talented professionals in the development of solutions that meet the needs of business.',
-      'section-hero-about': 'Launch',
+      'section-hero-about': 'Get Started',
       //======= Hero Section =======
       //
       //======= About Section =======
@@ -34,7 +35,6 @@ jQuery(document).ready(function () {
       'section-about-mision-details': 'We believe that with the right tools, everyone can achieve their goals. By developing system solutions that meet your needs, we want to provide our support so that all of our employees achieve their goals.',
       'section-about-vision': 'Vision',
       'section-about-vision-details': 'Empower our employees with the necessary tools to meet their objectives and build a better future.',
-      'section-about-history': 'History',
       'section-about-history-details': 'Alliances tend to form in the most unexpected ways, and even more so in the halls of universities, where young people with great ideas (and just as naive) share their thoughts about the world around them.',
       //======= About Section =======
       //
@@ -73,6 +73,26 @@ jQuery(document).ready(function () {
       'section-team-header-#3': 'Co-founder and Commercial Director',
       'section-team-details-#3': 'Project manager, consultant and teacher by vocation. Master in management control (management control), with more than 5 years of experience in project management, cost analysis and general advice in commercial areas. Professor of the Projects Department at the Technological University of Santiago UTESA has been teaching for over 3 years. Fan of technology and its evolution.',
       //======= Team Section =======
+      //
+      //======= History Section =======
+      'section-history-header': 'History of the company',
+      'section-history-paragraph-#1': 'Alliances tend to form in the most unexpected ways, and even more so in the halls of universities, where young people with great ideas (and just as naive) share their thoughts about the world around them.',
+      'section-history-paragraph-#2': 'Our story begins with the meeting of two young technology lovers, both with very clear ideas of what they understood was lacking in the Dominican market. The lack of quality technological tools and chords to meet the needs of the market led them along the path of software development, seeking, according to their understanding, to provide the market with quality software, even though they still did not fully understand what this implied.',
+      'section-history-paragraph-#3': 'The idea of commercializing software began in that student stage where they based their work on the fundamental principles of software and customer service.',
+      'section-history-fundamental-principles-header': 'Fundamental principles of software',
+      'section-history-fundamental-principles-#1': 'Robust and scalable system',
+      'section-history-fundamental-principles-#2': 'Coupling and cohesion between the different elements',
+      'section-history-fundamental-principles-#3': 'Easy to maintain over time',
+      'section-history-fundamental-principles-#4': 'Meet customer needs',
+      'section-history-fundamental-principles-#5': 'Usability',
+      'section-history-fundamental-principles-#6': 'Use technology that meets customer requirements',
+      'section-history-customer-service-header': 'Customer service',
+      'section-history-customer-service-#1': 'Personalized and quality services',
+      'section-history-customer-service-#2': 'Preventive and premature support',
+      'section-history-customer-service-#3': 'Efficiency in problem solving',
+      'section-history-paragraph-#4': 'They started the development adventure using the Java language, specifically with Java Swing, and with some opportunities, the story began.',
+      'section-history-paragraph-#5': 'Over the years, they understood that in order to create a more robust platform that would allow them to develop larger projects in size and quality, they made the decision to formalize their entire process and, with it, add a third member to the adventure. This one, with his experience in commercial areas, sought to complement the masterminds behind the developments.',
+      'section-history-paragraph-#6': 'We are Hector, Freddy, and David, together we form Alphnology, a story that began with two young software developers 10 years ago, and who now seek new ideas and proposals to provide multiple technological services that allow our collaborators to meet their goals, all this through tools designed and developed with the user always in mind.s',
     }
   });
 
