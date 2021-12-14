@@ -13,7 +13,13 @@ jQuery(document).ready(function () {
     'en': {
       'title': 'Alphnology - Multiservices',
       'read-more': 'Read more',
-      'section-history': 'History',
+      'history': 'History',
+      'phone': 'Phones',
+      'email': 'Mail',
+      'contact-us': 'Contact us',
+      'address': 'Address',
+      'schedules': 'Schedules',
+      'contact': 'Contact',
       // ======= Header =======
       'header-navbar-home': 'Home',
       'header-navbar-about': 'About us',
@@ -93,6 +99,11 @@ jQuery(document).ready(function () {
       'section-history-paragraph-#4': 'They started the development adventure using the Java language, specifically with Java Swing, and with some opportunities, the story began.',
       'section-history-paragraph-#5': 'Over the years, they understood that in order to create a more robust platform that would allow them to develop larger projects in size and quality, they made the decision to formalize their entire process and, with it, add a third member to the adventure. The third member of the team, with his experience in commercial areas, sought to complement the masterminds behind the developments.',
       'section-history-paragraph-#6': 'We are Hector, Freddy, and David, together we form Alphnology, a story that began with two young software developers 10 years ago, and now seeking with new ideas and proposals be able to provide multiple technological services that allow our collaborators to meet their goals, all this through tools designed and developed with the user always in mind.',
+      //======= History Section =======
+      //
+      //======= Footer Section =======
+      'section-footer-header-#1': 'We offer solutions to grow your business.',
+      'section-footer-header-#2': 'Helpful links',
     }
   });
 
