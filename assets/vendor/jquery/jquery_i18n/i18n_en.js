@@ -19,7 +19,9 @@ jQuery(document).ready(function () {
       'contact-us': 'Contact us',
       'address': 'Address',
       'schedules': 'Schedules',
+      'schedules-day' : 'Monday - Friday',
       'contact': 'Contact',
+      'services': 'Services',
       // ======= Header =======
       'header-navbar-home': 'Home',
       'header-navbar-about': 'About us',
@@ -104,6 +106,14 @@ jQuery(document).ready(function () {
       //======= Footer Section =======
       'section-footer-header-#1': 'We offer solutions to grow your business.',
       'section-footer-header-#2': 'Helpful links',
+            //
+      //======= Footer Section =======
+      'services-other-section-bullet-#1': 'Networks and telecommunications in general',
+      'services-other-section-bullet-#2': 'System and server administration',
+      'services-other-section-bullet-#3': 'Database administration',
+      'services-other-section-bullet-#4': 'Design and development of web pages',
+      'services-other-section-bullet-#5': 'Advice and administration of web domains',
+      'services-other-section-bullet-#6': 'Computer security management',
     }
   });
 

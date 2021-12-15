@@ -30,12 +30,35 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: FlexStart - v1.9.0
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    var type = urlParams.get('type');
+    //software
+    window.onload = function () {
+      datai18n = 'Services';
+      if (type == 'sd') {
+        datai18n = 'section-services-header-#1';
+        $("#includedContent").load("services/software-development.html");
+      } else if (type == 'etl') {
+        datai18n = 'section-services-header-#2';
+        $("#includedContent").load("services/data-migration.html");
+      } else if (type == 'tpm') {
+        datai18n = 'section-services-header-#3';
+        $("#includedContent").load("services/technology-project-management.html");
+      } else if (type == 'tc') {
+        datai18n = 'section-services-header-#4';
+        $("#includedContent").load("services/technical-consultancy.html");
+      } else if (type == 'others') {
+        datai18n = 'section-services-header-#5';
+        $("#includedContent").load("services/others.html");
+      }
+      document.getElementById('breadcrumbs-services').setAttribute('data-i18n', datai18n);
+      // document.getElementById('includedContent').setAttribute('src', "services/software-development.html");
+
+    }
+  </script>
 </head>
 
 <body>
@@ -85,167 +108,37 @@
 
         <ol>
           <li><a href="index.html" data-i18n="header-navbar-home">Home</a></li>
-          <li data-i18n="history">History</li>
+          <li data-i18n="services">Services</li>
         </ol>
-        <h2 data-i18n="history">History</h2>
+        <h2 id="breadcrumbs-services">Services</h2>
+        <!-- <h2 id="parameter"></h2> -->
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="history" class="features">
+    <!-- ======= Services Details Section ======= -->
+    <section id="blog" class="blog">
 
       <div class="container" data-aos="fade-up">
-
-        <header class="section-header">
-          <p data-i18n="section-history-header">History of the company</p>
-        </header>
 
         <div class="row">
           <div class="col-lg-2">
           </div>
-          <div class="col-lg-8">
-            <p style="text-align: justify;" data-i18n="section-history-paragraph-#1">
-              Alliances tend to form in the most unexpected ways, and even more so in the halls of universities, where
-              young people with great ideas (and just as naive) share their thoughts about the world around them.
-            </p>
-            <p style="text-align: justify;" data-i18n="section-history-paragraph-#2">
-              Our story begins with the meeting of two young technology lovers, both with very clear ideas of what they
-              understood was lacking in the Dominican market. The lack of quality technological tools and chords to meet
-              the needs of the market led them along the path of software development, seeking, according to their
-              understanding, to provide the market with quality software, even though they still did not fully
-              understand what this implied.
-            </p>
-            <p style="text-align: justify;" data-i18n="section-history-paragraph-#3">
-              The idea of commercializing software began in that student stage where they based their work on the
-              fundamental principles of software and customer service.
-            </p>
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <div id="includedContent">
+
+            </article>
           </div>
           <div class="col-lg-2">
           </div>
-
-          <div class="section-history">
-            <br>
-            <h1 data-i18n="section-history-fundamental-principles-header">Fundamental principles of software</h1>
-          </div>
-
-          <div class="col-lg-1">
-          </div>
-          <div class="col-lg-5">
-            <img src="assets/img/fundamental_principles_software.svg" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-5 mt-5 mt-lg-0 d-flex">
-            <div class="row align-self-center gy-4">
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-fundamental-principles-#1">Robust and scalable system</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-fundamental-principles-#2">Coupling and cohesion between the different
-                    elements</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-fundamental-principles-#3">Easy to maintain over time</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-fundamental-principles-#4">Meet customer needs
-                  </h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-fundamental-principles-#5">Usability</h3>
-                </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-fundamental-principles-#6">Use technology that meets customer
-                    requirements</h3>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <div class="col-lg-1">
-          </div>
-
-          <div class="section-history">
-            <br><br><br>
-            <h1 data-i18n="section-history-customer-service-header">Customer service</h1>
-          </div>
-
-          <div class="col-lg-1">
-          </div>
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex">
-            <div class="row align-self-center gy-4">
-
-              <div class="col-md-4" data-aos="zoom-out" data-aos-delay="200">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-customer-service-#1">Personalized and quality services</h3>
-                </div>
-              </div>
-
-              <div class="col-md-4" data-aos="zoom-out" data-aos-delay="300">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-customer-service-#2">Preventive and premature support</h3>
-                </div>
-              </div>
-
-              <div class="col-md-4" data-aos="zoom-out" data-aos-delay="400">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3 data-i18n="section-history-customer-service-#3">Efficiency in problem solving</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <img src="assets/img/customer_service.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-1">
-          </div>
-
-          <div class="col-lg-2">
-          </div>
-          <div class="col-lg-8">
-            <br><br><br>
-            <p style="text-align: justify;" data-i18n="section-history-paragraph-#4">
-            </p>
-            <p style="text-align: justify;" data-i18n="section-history-paragraph-#5">
-            </p>
-            <p style="text-align: justify;" data-i18n="section-history-paragraph-#6">
-            </p>
-          </div>
-          <div class="col-lg-2">
-          </div>
-
-        </div> <!-- / row -->
-
+        </div>
       </div>
-
-    </section><!-- End Features Section -->
+    </section>
+    </div>
+    <!-- ======= Services Details Section ======= -->
 
   </main><!-- End #main -->
 
@@ -348,7 +241,6 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- jQuery i18n -->
   <script src="assets/vendor/jquery/common/jquery.js"></script>
@@ -364,6 +256,7 @@
   <script src="assets/vendor/jquery/jquery_i18n/i18n_es.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="https://unpkg.com/htmlincludejs"></script>
   <script src="assets/js/main.js"></script>
 
 </body>
