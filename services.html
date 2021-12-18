@@ -34,29 +34,26 @@
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
 
-    var type = urlParams.get('type');
-    //software
+    var services = urlParams.get('services');
     window.onload = function () {
       datai18n = 'Services';
-      if (type == 'sd') {
+      if (services == '1') {
         datai18n = 'section-services-header-#1';
         $("#includedContent").load("services/software-development.html");
-      } else if (type == 'etl') {
+      } else if (services == '2') {
         datai18n = 'section-services-header-#2';
         $("#includedContent").load("services/data-migration.html");
-      } else if (type == 'tpm') {
+      } else if (services == '3') {
         datai18n = 'section-services-header-#3';
         $("#includedContent").load("services/technology-project-management.html");
-      } else if (type == 'tc') {
+      } else if (tyservicespe == '4') {
         datai18n = 'section-services-header-#4';
         $("#includedContent").load("services/technical-consultancy.html");
-      } else if (type == 'others') {
+      } else if (services == '5') {
         datai18n = 'section-services-header-#5';
         $("#includedContent").load("services/others.html");
       }
       document.getElementById('breadcrumbs-services').setAttribute('data-i18n', datai18n);
-      // document.getElementById('includedContent').setAttribute('src', "services/software-development.html");
-
     }
   </script>
 </head>
