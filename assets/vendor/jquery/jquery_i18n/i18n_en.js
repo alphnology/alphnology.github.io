@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
       'contact-us': 'Contact us',
       'address': 'Address',
       'schedules': 'Schedules',
-      'schedules-day' : 'Monday - Friday',
+      'schedules-day': 'Monday - Friday',
       'contact': 'Contact',
       'services': 'Services',
       // ======= Header =======
@@ -106,14 +106,40 @@ jQuery(document).ready(function () {
       //======= Footer Section =======
       'section-footer-header-#1': 'We offer solutions to grow your business.',
       'section-footer-header-#2': 'Helpful links',
-            //
+      //
       //======= Footer Section =======
-      'services-other-section-bullet-#1': 'Networks and telecommunications in general',
-      'services-other-section-bullet-#2': 'System and server administration',
-      'services-other-section-bullet-#3': 'Database administration',
-      'services-other-section-bullet-#4': 'Design and development of web pages',
-      'services-other-section-bullet-#5': 'Advice and administration of web domains',
-      'services-other-section-bullet-#6': 'Computer security management',
+      //  
+      //======= Services details Section =======
+      'section-services-software-development-#1': 'Alphnology is a team of professionals focused on the development of solutions that help your business grow.',
+      'section-services-software-development-#2': 'Desarrollar productos tecnológicos a la medida de las necesidades de nuestros clientes es nuestro norte, todo esto, apoyado en las mejores metodologías de desarrollo de software, aplicando los procedimientos y controles adecuados para asegurar la calidad de los mismos. La eficacia a la hora de entregar los resultados nos mueve.',
+      'section-services-software-development-#3': 'The accumulated experience throughout the years has led to the master of languages and technologies that allow us to find solutions to the needs of the customer. As a result, our designs and solutions have modular characteristics and take advantage of the benefits of reusing software.',
+      'section-services-software-development-#4': 'This gives our customer more flexibility in their applications, maintenance is more effective and efficient, better performance and improved quality of the solutions.',
+      'section-services-software-development-header-#1': 'Customize development',
+      'section-services-software-development-header-#1-1': 'We develop custom software, we aim to automate your processes in an effective and efficient way.',
+      'section-services-software-development-header-#1-2': 'Collaboration is key for us, because with this we can provide the technological tools that best suit our customers needs and allow them to be always up to date and prepare for the new economics and technological changes.',
+      'section-services-software-development-header-#2': 'Web services',
+      'section-services-software-development-header-#2-1': 'We develop a wide variety of apps destyn for services, focused on the needs society demands. The core of Alphnology lies in the integration of characteristics that add value to the different services we offer.',
+      'section-services-software-development-header-#2-2': 'We are always looking the highest levels of modularity, granularity and reuse of the elements that conforms our systems, in order to meet that goal we focused on using the following state of the art technologies:',
+      'section-services-software-development-header-#2-3': 'Container Orchestrators',
+      'section-services-software-development-header-#2-4': 'Private cloud',
+      'section-services-software-development-header-#2-5': 'Version controls',
+      'section-services-software-development-header-#2-6': 'Continuous integration (CI)',
+      'section-services-software-development-header-#2-7': 'Continuous delivery (CD)',
+      'section-services-software-development-header-#2-8': 'Code coverage',
+      'section-services-technical-consultancy-#1': 'A good selection and counseling on what systems and technological tools are needed to support an organization is crucial for that institution to thrive.',
+      'section-services-technical-consultancy-#2': 'Our experts put our high level of expertise at the service of our customers to help them choose the best options. The objective is to accomplish a synergy between the organization objectives and the capabilities of the system they will have.',
+      'section-services-technical-consultancy-#3': 'Our consultants capacity to gather information and requirements of the customers needs is based on their experience. The structures and tools to be used for the solutions to our customers needs are determined by collaboration between us and our customers, it is because of this collaboration that the results are solutions that our customers can take the most advantage of and during the longest period of time, in order to maximize the return of the investment.',
+      'section-services-technical-consultancy-#4': 'According to our philosophy of global service, our expecilize teams will be able to plan, develop (if there is the need for a custom solution) and implement optimal technical services and tools.',
+      'section-services-other-#1': 'We offer multiple services to support the growth of your business.',
+      'section-services-other-#2': 'We have different business units dedicated to provide solutions and technological services for different areas of your business.',
+      'section-services-other-#3': 'In order to follow our principle of service at a global level, we offer different options related to multiple areas of technology, so that any company or institution can obtain the right solution and optimal at any time.',
+      'section-services-other-#4': 'Alphnology also offers services in the following technology areas:',
+      'section-services-other-#4-1': 'Networks and telecommunications in general',
+      'section-services-other-#4-2': 'System and server administration',
+      'section-services-other-#4-3': 'Database administration',
+      'section-services-other-#4-4': 'Design and development of web pages',
+      'section-services-other-#4-5': 'Advice and administration of web domains',
+      'section-services-other-#4-6': 'IT security management',
     }
   });
 
