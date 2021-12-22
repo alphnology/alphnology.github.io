@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html id="lang" lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
@@ -30,12 +30,23 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: FlexStart - v1.9.0
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script type="text/javascript">
+    if (typeof (Storage) !== "undefined") {
+      // Code for localStorage/sessionStorage.
+      var userLang = localStorage.getItem("userLang")
+      if (userLang !== null) {
+        document.getElementById('lang').setAttribute('lang', userLang);
+      } else {
+        var userLang = navigator.language || navigator.userLanguage;
+        localStorage.setItem("userLang", userLang);
+        document.getElementById('lang').setAttribute('lang', userLang);
+      }
+    } else {
+      // Sorry! No Web Storage support..
+      var userLang = navigator.language || navigator.userLanguage;
+      document.getElementById('lang').setAttribute('lang', userLang);
+    }
+  </script>
 </head>
 
 <body>
@@ -44,9 +55,9 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="languages d-md-flex align-items-center">
         <ul>
-          <li><a  href="#" tabindex="1" class="lang-switch" data-locale="en">English</a></li>
+          <li><a href="#" tabindex="1" class="lang-switch" data-locale="en">English</a></li>
           <li>|</li>
-          <li><a id="focus-lang-switch" href="#" tabindex="2" class="lang-switch" data-locale="es">Español</a></li>
+          <li><a  href="#" tabindex="2" class="lang-switch" data-locale="es">Español</a></li>
         </ul>
       </div>
     </div>

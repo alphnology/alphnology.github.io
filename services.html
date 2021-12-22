@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html id="lang" lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
@@ -31,6 +31,22 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <script>
+    if (typeof (Storage) !== "undefined") {
+      // Code for localStorage/sessionStorage.
+      var userLang = localStorage.getItem("userLang")
+      if (userLang !== null) {
+        document.getElementById('lang').setAttribute('lang', userLang);
+      } else {
+        var userLang = navigator.language || navigator.userLanguage;
+        localStorage.setItem("userLang", userLang);
+        document.getElementById('lang').setAttribute('lang', userLang);
+      }
+    } else {
+      // Sorry! No Web Storage support..
+      var userLang = navigator.language || navigator.userLanguage;
+      document.getElementById('lang').setAttribute('lang', userLang);
+    }
+
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
 
@@ -46,7 +62,7 @@
       } else if (services == '3') {
         datai18n = 'section-services-header-#3';
         $("#includedContent").load("services/technology-project-management.html");
-      } else if (tyservicespe == '4') {
+      } else if (services == '4') {
         datai18n = 'section-services-header-#4';
         $("#includedContent").load("services/technical-consultancy.html");
       } else if (services == '5') {
@@ -64,7 +80,7 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="languages d-md-flex align-items-center">
         <ul>
-          <li><a  href="#" tabindex="1" class="lang-switch" data-locale="en">English</a></li>
+          <li><a href="#" tabindex="1" class="lang-switch" data-locale="en">English</a></li>
           <li>|</li>
           <li><a id="focus-lang-switch" href="#" tabindex="2" class="lang-switch" data-locale="es">Español</a></li>
         </ul>

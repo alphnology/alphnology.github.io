@@ -7,6 +7,15 @@ jQuery(document).ready(function () {
     e.preventDefault();
     $.i18n().locale = $(this).data('locale');
     update_texts();
+
+    if (typeof (Storage) !== "undefined") {
+      // Code for localStorage/sessionStorage.
+       localStorage.setItem("userLang",  $(this).data('locale'));
+      // }
+    } else {
+      // Sorry! No Web Storage support..
+      localStorage.setItem("userLang",  'en');
+    }
   });
 
   $.i18n().load({
@@ -131,7 +140,7 @@ jQuery(document).ready(function () {
       'section-services-technical-consultancy-#3': 'La capacidad de nuestros consultores en el levantamiento de información y determinación de las necesidades de nuestros clientes está determinada por la experiencia. La estructura y herramientas a utilizar para la solución a  sus necesidades se determina por medio de la colaboración entre nuestros consultores y nuestros clientes, gracias dicha colaboración los resultados son soluciones que nuestros clientes pueden aprovechar de la manera más eficiente y durante mayor extensión de tiempo, para maximizar así el rendimiento de su inversión.',
       'section-services-technical-consultancy-#4': 'Luego, de acuerdo con nuestra filosofía de servicio global, nuestros grupos de trabajo especializados podrán planificar, desarrollar (si es necesario) e implementar equipos de TI óptimos.',
       'section-services-other-#1': 'Ofrecemos múltiples servicios para apoyar el crecimiento de su negocio.',
-      'section-services-other-#2': 'Contamos con diferentes unidades de negocios dedicadas a brindar soluciones y servicios tecnológicos para distintas áreas de su negocio. ',
+      'section-services-other-#2': 'Contamos con diferentes unidades de negocios dedicadas a brindar soluciones y servicios tecnológicos para distintas áreas de su negocio.',
       'section-services-other-#3': 'Para poder llevar a cabo nuestro principio de servicio global ofrecemos diferentes opciones relacionadas con múltiples áreas de la tecnología, para que cualquier empresa u organización pueda obtener la solución correcta y óptima en cualquier momento.',
       'section-services-other-#4': 'Alphnology también ofrece servicios en las siguientes áreas tecnológicas:',
       'section-services-other-#4-1': 'Redes y telecomunicaciones en general',
@@ -140,10 +149,39 @@ jQuery(document).ready(function () {
       'section-services-other-#4-4': 'Diseño y desarrollo de paginas web',
       'section-services-other-#4-5': 'Asesoría y administración de dominios web',
       'section-services-other-#4-6': 'Gestión de seguridad informática',
+      'section-services-data-migration-#1': 'Nuestros expertos migrarán sus bases de datos y servidores sin prácticamente ningún tiempo de inactividad. Migramos una amplia variedad de datos y diagramas de lógica empresarial, utilizando las mejores prácticas de extracción, transformación y carga (ETL) y protocolos de control de versiones.',
+      'section-services-data-migration-#2': 'Tratamos sus datos con mayor escalabilidad mediante la creación de sistemas automatizados de migración de datos para procesar, analizar y mapear campos ilimitados en su nueva base de datos. Usamos herramientas de migración de esquemas para automatizar la transferencia de datos de aplicaciones y revertir la serie apropiada de cambios de esquema hasta que obtengamos los resultados deseados.',
+      'section-services-data-migration-#3': 'Desarrollamos sistemas de migración automatizados para migrar la lógica empresarial y realizar actualizaciones rápidas en las plataformas empresariales existentes. Nuestro motor de migración de datos automática reconoce y personaliza elementos XML para crear documentos de mapas de forma rápida y confiable. Su marco es completamente reutilizable y configurable, por lo que puede modificar tanto sus estructuras de datos, como los datos en sí, incluso después de que la migración haya finalizado.',
+      'section-services-data-migration-#4': 'Nuestros expertos en migración de datos tienen experiencia global y multidisciplinaria en la implementación de soluciones comerciales utilizando metodologías, métodos y herramientas recopiladas digitalmente.  Todo esto se logra utilizando herramientas líderes de migración de datos de código abierto, locales y basadas en la nube.',
+      'section-services-technology-project-management-#1': 'Estudiar, evaluar, seleccionar y licitar las herramientas tecnológicas que su negocio necesita es, en sí mismo, una tarea que alberga mucha importancia y sobre todo un compromiso económico como de cambio cultural para su empresa.',
+      'section-services-technology-project-management-#2': 'Una vez se seleccionan las herramientas y se pasa por todo el proceso de compra y contratación, surge una nueva incógnita, ¿Cómo asegurar el proceso y calidad de implementación de la nueva herramienta en su empresa?, para darle respuesta a esa pregunta Alphnology ofrece servicios de gestión de proyectos tecnológicos.',
+      'section-services-technology-project-management-#3': 'Nuestros servicios de gestión de proyectos buscan brindar un guardián para su inversión y una figura que pueda coordinar colaboradores internos (empleados), así como también colaboradores externos (consultores e implementadores). ',
+      'section-services-technology-project-management-#4': 'Los gestores de proyectos de Alphnology cuentan con la experiencia en gestión de proyectos de implementación tecnológicos, así como también de distintas áreas comerciales. Utilizando diferentes herramientas nuestros gestores de proyectos pueden brindar información clara y precisa sobre el estatus de su proyecto, determinar las rutas críticas de estos, organizar y gestionar los distintos recursos, gestionar la resistencia al cambio a lo interno de la institución y mucho más.',
+      'section-services-technology-project-management-#5': 'Alphnology cuenta con gestores de proyecto con dominio de distintas metodologías y herramientas, tales como, metodología de cascada, Agile, entre otros. Alguna de las herramientas que utilizamos para el manejo de proyecto son las siguientes:',
+      'section-services-technology-project-management-#5-1': 'Planificación de proyectos',
+      'section-services-technology-project-management-#5-2': 'Gráficas de Gantt',
+      'section-services-technology-project-management-#5-3': 'Programación de proyectos',
+      'section-services-technology-project-management-#5-4': 'Planificación y control de recursos',
+      'section-services-technology-project-management-#5-5': 'Colaboración de equipos',
+      'section-services-technology-project-management-#5-6': 'Rastreo de tiempos y dificultades',
+      'section-services-technology-project-management-#5-7': 'Reportería sobre estatus del proyecto',
       //======= Services details Section =======
       //
+      //======= F.A.Q Section =======
+      'section-faq-header': 'Preguntas frecuentes',
+      'section-faq-questions-#1': '¿Dónde puedo comunicarme para obtener más información de manera personalizada?',
+      'section-faq-questions-#2': '¿Dónde están ubicadas sus oficinas?',
+      'section-faq-questions-#3': 'Si quisiera una evaluación preliminar para un nuevo proyecto, con datos preliminares, ¿es posible?',
+      'section-faq-answer-#1-1': 'Contactanos con un correo electrónico a',
+      'section-faq-answer-#1-2': 'o escríbenos a través de',
+      'section-faq-answer-#1-3': 'o',
+      'section-faq-answer-#1-4': 'al',
+      'section-faq-answer-#2': 'Somos una empresa de tecnología enfocada en la libertad que nos brinda esta, por esta razón trabajamos desde cualquier lugar, contáctanos y podremos coordinar un encuentro en su propio negocio.',
+      'section-faq-answer-#3': 'Contactanos y estaremos más que felices de evaluar y proponer soluciones para sus proyectos.',
+
+
     }
   });
 
-  update_texts();
+update_texts();
 });

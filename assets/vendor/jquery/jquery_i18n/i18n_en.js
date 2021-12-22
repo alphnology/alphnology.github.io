@@ -7,6 +7,15 @@ jQuery(document).ready(function () {
     e.preventDefault();
     $.i18n().locale = $(this).data('locale');
     update_texts();
+
+    if (typeof (Storage) !== "undefined") {
+      // Code for localStorage/sessionStorage.
+       localStorage.setItem("userLang",  $(this).data('locale'));
+      // }
+    } else {
+      // Sorry! No Web Storage support..
+      localStorage.setItem("userLang",  'en');
+    }
   });
 
   $.i18n().load({
@@ -140,6 +149,35 @@ jQuery(document).ready(function () {
       'section-services-other-#4-4': 'Design and development of web pages',
       'section-services-other-#4-5': 'Advice and administration of web domains',
       'section-services-other-#4-6': 'IT security management',
+      'section-services-data-migration-#1': 'Our experts will migrate your databases and servers with close to none downtime. We migrate a wide variety of data and business logic diagrams. using the best practices of extraction, transformation and loading protocols, controlled by version in the market.',
+      'section-services-data-migration-#2': 'We handle your data with high levels of scalability, this is based on the creation of automated systems of migration of data to process, analyze and mapping unlimited fields to your new database.  Using migration tools to automate the applications data transfer and have the appropriate change series until the desired outcome is accomplished.',
+      'section-services-data-migration-#3': 'We develop automated migration systems, to migrate business rules/logics and perform fast updates to the existing business platforms. Our automated migration engine recognizes and personalizes XML elements in order to create mapping documents in a reliable and easy way. The frame is completely reusable and adaptable, this is why the changes can be done at the data structure level as in the data itself even after the migration is finalized.',
+      'section-services-data-migration-#4': 'Our migration data experts have the global and interdisciplinary experience in the implementation of commercial solutions using the best methodologies, practices and tools. All this is possible due to the leading migration of open source, local and cloud base tools we use.',
+      'section-services-technology-project-management-#1': 'Study, evaluate, select and purchase the technological tools your business needs is, by itself, a task that holds great significance and importance, because it represents a commitment at economical and business culture level.',
+      'section-services-technology-project-management-#2': 'Once the tools are selected and the process of purchase and get them is done, a new question arises, how can we make sure that the implantation process and quality is what we as a business are expecting? Alphnology offers project management services to give the answer to that question.',
+      'section-services-technology-project-management-#3': 'Our project management services seek to provide a guardian for your investment and a figure that will be able to coordinate internal and external stakeholders (employees and implementation consultants).',
+      'section-services-technology-project-management-#4': 'Alphnology’s project managers have the experience in managing projects of technological implementation, as well as other commercial areas. Using different tools our project managers can provide clear and precise information on the status of your projects, determine the critical path of the project, organize and manage multiple resources, manage and mitigate change resistance and much more.',
+      'section-services-technology-project-management-#5': 'Alphnology counts with project managers that handle and execute different project management methodologies, like waterfall, agile, among others. Some of the tools we use to manage projects are the following.',
+      'section-services-technology-project-management-#5-1': 'Project planning',
+      'section-services-technology-project-management-#5-2': 'Gantt charts',
+      'section-services-technology-project-management-#5-3': 'Project scheduling',
+      'section-services-technology-project-management-#5-4': 'Resource planning',
+      'section-services-technology-project-management-#5-5': 'Team collaboration',
+      'section-services-technology-project-management-#5-6': 'Time recording and tracking, as well as Issue tracking',
+      'section-services-technology-project-management-#5-7': 'Project reporting',
+      //======= Services details Section =======
+      //
+      //======= F.A.Q Section =======
+      'section-faq-header': 'Frequent questions',
+      'section-faq-questions-#1': 'Where can I communicate with you to get personalized information?',
+      'section-faq-questions-#2': 'Where are you located?',
+      'section-faq-questions-#3': 'If I wanted a preliminary evaluation for a new project, with preliminary data, is it possible to get it?',
+      'section-faq-answer-#1-1': 'Send us an email to',
+      'section-faq-answer-#1-2': 'or contact us on',
+      'section-faq-answer-#1-3': 'and ',
+      'section-faq-answer-#1-4': 'to the',
+      'section-faq-answer-#2': 'We are a technology company that is focused on the freedom technology provides, because of this we work from everywhere, get in contact with us and we can coordinate a virtual meeting or a visit to your facilities.',
+      'section-faq-answer-#3': 'Get in contact with us and we will be more than happy to evaluate and propose solutions for your projects.',
     }
   });
 

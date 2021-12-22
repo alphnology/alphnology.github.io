@@ -8,7 +8,6 @@
 (function () {
   "use strict";
 
-  document.getElementById('focus-lang-switch').focus();
 
   /**
    * Easy selector helper function
