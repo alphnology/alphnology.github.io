@@ -10,11 +10,11 @@ jQuery(document).ready(function () {
 
     if (typeof (Storage) !== "undefined") {
       // Code for localStorage/sessionStorage.
-       localStorage.setItem("userLang",  $(this).data('locale'));
+      localStorage.setItem("userLang", $(this).data('locale'));
       // }
     } else {
       // Sorry! No Web Storage support..
-      localStorage.setItem("userLang",  'en');
+      localStorage.setItem("userLang", 'en');
     }
   });
 
@@ -178,6 +178,20 @@ jQuery(document).ready(function () {
       'section-faq-answer-#1-4': 'to the',
       'section-faq-answer-#2': 'We are a technology company that is focused on the freedom technology provides, because of this we work from everywhere, get in contact with us and we can coordinate a virtual meeting or a visit to your facilities.',
       'section-faq-answer-#3': 'Get in contact with us and we will be more than happy to evaluate and propose solutions for your projects.',
+      //======= F.A.Q Section =======
+      //
+      // ======= Contact Section =======
+      'section-contact-form-name': 'Your name',
+      'section-contact-form-phone': 'Phone Number',
+      'section-contact-form-mailer': 'Email',
+      'section-contact-form-topic': 'Subject',
+      'section-contact-form-content': 'Message',
+      'section-contact-form-loading': 'Loading',
+      'section-contact-form-error-message': 'The mail could not be sent',
+      'section-contact-form-sent-message': 'Your message has been sent. Thank you!',
+      'section-contact-form-submit': 'Send Message',
+      'section-contact-form-reset': 'Reset',
+      // ======= Contact  Section=======
     }
   });
 

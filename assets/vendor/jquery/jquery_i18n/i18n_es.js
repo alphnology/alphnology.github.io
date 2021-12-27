@@ -10,11 +10,11 @@ jQuery(document).ready(function () {
 
     if (typeof (Storage) !== "undefined") {
       // Code for localStorage/sessionStorage.
-       localStorage.setItem("userLang",  $(this).data('locale'));
+      localStorage.setItem("userLang", $(this).data('locale'));
       // }
     } else {
       // Sorry! No Web Storage support..
-      localStorage.setItem("userLang",  'en');
+      localStorage.setItem("userLang", 'en');
     }
   });
 
@@ -178,10 +178,23 @@ jQuery(document).ready(function () {
       'section-faq-answer-#1-4': 'al',
       'section-faq-answer-#2': 'Somos una empresa de tecnología enfocada en la libertad que nos brinda esta, por esta razón trabajamos desde cualquier lugar, contáctanos y podremos coordinar un encuentro en su propio negocio.',
       'section-faq-answer-#3': 'Contactanos y estaremos más que felices de evaluar y proponer soluciones para sus proyectos.',
-
+      //======= F.A.Q Section =======
+      //
+      // ======= Contact Section =======
+      'section-contact-form-name': 'Nombre',
+      'section-contact-form-phone': 'Teléfono',
+      'section-contact-form-mailer': 'Correo electronico',
+      'section-contact-form-topic': 'Asunto',
+      'section-contact-form-content': 'Mensaje',
+      'section-contact-form-loading': 'Cargando',
+      'section-contact-form-error-message': 'No se pudo enviar el correo',
+      'section-contact-form-sent-message': 'Tu mensaje ha sido enviado. ¡Gracias!',
+      'section-contact-form-submit': 'Enviar mensaje',
+      'section-contact-form-reset': 'Limpiar',
+      // ======= Contact  Section=======
 
     }
   });
 
-update_texts();
+  update_texts();
 });

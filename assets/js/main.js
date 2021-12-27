@@ -8,9 +8,6 @@
 (function () {
   "use strict";
 
-  function submitContactForm() {
-    alert("Sending Json");
-  }
   /**
    * Easy selector helper function
    */

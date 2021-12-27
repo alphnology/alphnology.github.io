@@ -45,7 +45,7 @@
       // Sorry! No Web Storage support..
       var userLang = navigator.language || navigator.userLanguage;
       document.getElementById('lang').setAttribute('lang', userLang);
-    }
+    };
   </script>
 </head>
 
@@ -514,48 +514,100 @@
             </div>
 
           </div>
-
           <div class="col-lg-6">
-            <form action="https://us-central1-alphnology-cloud.cloudfunctions.net/sendMail" method="post" class="php-email-form">
+            <iframe name="hiddenFrame" class="hide"></iframe>
+
+
+            <form id="contact-form" method="post" class="email-form" target="hiddenFrame"
+              action="https://us-central1-alphnology-cloud.cloudfunctions.net/sendMail">
               <div class="row gy-4">
 
                 <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  <input data-i18n="[placeholder]section-contact-form-name" type="text" name="name" class="form-control"
+                    placeholder="Your Name" required>
                 </div>
 
                 <div class="col-md-12 ">
-                  <input type="tel" class="form-control" name="phone" placeholder="Phone Number" required>
+                  <input data-i18n="[placeholder]section-contact-form-phone" type="tel" class="form-control"
+                    name="phone" placeholder="Phone Number" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="email" class="form-control" name="mailer" placeholder="Email" required>
+                  <input data-i18n="[placeholder]section-contact-form-mailer" type="email" class="form-control"
+                    name="mailer" placeholder="Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="topic" placeholder="Subject" required>
+                  <input data-i18n="[placeholder]section-contact-form-topic" type="text" class="form-control"
+                    name="topic" placeholder="Subject" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="content" rows="6" placeholder="Message" required></textarea>
+                  <textarea data-i18n="[placeholder]section-contact-form-content" class="form-control" name="content"
+                    rows="6" placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div id="loading" class="loading" data-i18n="section-contact-form-loading">Loading</div>
+                  <div id="error-message" class="error-message" data-i18n="section-contact-form-error-message">
+                    The mail could not be sent</div>
+                  <div id="sent-message" class="sent-message" data-i18n="section-contact-form-sent-message">
+                    Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Send Message</button>
+                  <button type="submit" data-i18n="section-contact-form-submit">Send Message</button>
+                  <button type="reset" data-i18n="section-contact-form-reset">Reset</button>
+
+                  <script type="text/javascript">
+                    var loading = document.getElementById('loading')
+                    var errorMessage = document.getElementById('error-message')
+                    var sentMessage = document.getElementById('sent-message')
+
+                    document.forms['contact-form'].addEventListener('submit', (event) => {
+                      event.preventDefault();
+                      // TODO do something here to show user that form is being submitted
+                      loading.style.display = 'block';
+
+                      fetch(event.target.action, {
+                        method: 'POST',
+                        body: new URLSearchParams(new FormData(event.target)) // event.target is the form
+                      }).then((resp) => {
+                        loading.style.display = 'none';
+
+                        setTimeout(function () {
+                          sentMessage.style.display = 'none';
+                          errorMessage.style.display = 'none';
+                        }, 3000);
+
+                        if (resp.status === 200) {
+                          sentMessage.style.display = 'block';
+                        } else {
+                          errorMessage.style.display = 'block';
+                        }
+
+                        return resp.json(); // or resp.text() or whatever the server sends
+                      }).then((body) => {
+                        // TODO handle body
+                      }).catch((e) => {
+                        loading.style.display = 'none';
+
+                        if ((e instanceof SyntaxError) === false) {
+                          setTimeout(function () {
+                            errorMessage.style.display = 'none';
+                          }, 3000);
+
+                          errorMessage.style.display = 'block';
+                        }
+                        // TODO handle error
+                      });
+                    });
+                  </script>
                 </div>
 
               </div>
             </form>
-
           </div>
-
         </div>
-
       </div>
-
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
