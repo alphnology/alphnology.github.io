@@ -584,19 +584,17 @@
                           errorMessage.style.display = 'block';
                         }
 
-                        return resp.json(); // or resp.text() or whatever the server sends
+                        return resp.text(); // or resp.text() or whatever the server sends
                       }).then((body) => {
                         // TODO handle body
                       }).catch((e) => {
                         loading.style.display = 'none';
+                        errorMessage.style.display = 'block';
 
-                        if ((e instanceof SyntaxError) === false) {
-                          setTimeout(function () {
-                            errorMessage.style.display = 'none';
-                          }, 3000);
+                        setTimeout(function () {
+                          errorMessage.style.display = 'none';
+                        }, 3000);
 
-                          errorMessage.style.display = 'block';
-                        }
                         // TODO handle error
                       });
                     });

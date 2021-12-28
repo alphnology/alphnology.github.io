@@ -187,7 +187,7 @@ jQuery(document).ready(function () {
       'section-contact-form-topic': 'Subject',
       'section-contact-form-content': 'Message',
       'section-contact-form-loading': 'Loading',
-      'section-contact-form-error-message': 'The mail could not be sent',
+      'section-contact-form-error-message': 'The mail could not be sent, please try again',
       'section-contact-form-sent-message': 'Your message has been sent. Thank you!',
       'section-contact-form-submit': 'Send Message',
       'section-contact-form-reset': 'Reset',
