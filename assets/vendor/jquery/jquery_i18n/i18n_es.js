@@ -149,6 +149,8 @@ jQuery(document).ready(function () {
       'section-services-other-#4-4': 'Diseño y desarrollo de paginas web',
       'section-services-other-#4-5': 'Asesoría y administración de dominios web',
       'section-services-other-#4-6': 'Gestión de seguridad informática',
+      'section-services-other-#4-7': 'Asistencia tributaria',
+      'section-services-other-#4-8': 'Asistencia financiera',
       'section-services-data-migration-#1': 'Nuestros expertos migrarán sus bases de datos y servidores sin prácticamente ningún tiempo de inactividad. Migramos una amplia variedad de datos y diagramas de lógica empresarial, utilizando las mejores prácticas de extracción, transformación y carga (ETL) y protocolos de control de versiones.',
       'section-services-data-migration-#2': 'Tratamos sus datos con mayor escalabilidad mediante la creación de sistemas automatizados de migración de datos para procesar, analizar y mapear campos ilimitados en su nueva base de datos. Usamos herramientas de migración de esquemas para automatizar la transferencia de datos de aplicaciones y revertir la serie apropiada de cambios de esquema hasta que obtengamos los resultados deseados.',
       'section-services-data-migration-#3': 'Desarrollamos sistemas de migración automatizados para migrar la lógica empresarial y realizar actualizaciones rápidas en las plataformas empresariales existentes. Nuestro motor de migración de datos automática reconoce y personaliza elementos XML para crear documentos de mapas de forma rápida y confiable. Su marco es completamente reutilizable y configurable, por lo que puede modificar tanto sus estructuras de datos, como los datos en sí, incluso después de que la migración haya finalizado.',

@@ -149,6 +149,8 @@ jQuery(document).ready(function () {
       'section-services-other-#4-4': 'Design and development of web pages',
       'section-services-other-#4-5': 'Advice and administration of web domains',
       'section-services-other-#4-6': 'IT security management',
+      'section-services-other-#4-7': 'Tax assistance',
+      'section-services-other-#4-8': 'Financial assistance',
       'section-services-data-migration-#1': 'Our experts will migrate your databases and servers with close to none downtime. We migrate a wide variety of data and business logic diagrams. using the best practices of extraction, transformation and loading protocols, controlled by version in the market.',
       'section-services-data-migration-#2': 'We handle your data with high levels of scalability, this is based on the creation of automated systems of migration of data to process, analyze and mapping unlimited fields to your new database.  Using migration tools to automate the applications data transfer and have the appropriate change series until the desired outcome is accomplished.',
       'section-services-data-migration-#3': 'We develop automated migration systems, to migrate business rules/logics and perform fast updates to the existing business platforms. Our automated migration engine recognizes and personalizes XML elements in order to create mapping documents in a reliable and easy way. The frame is completely reusable and adaptable, this is why the changes can be done at the data structure level as in the data itself even after the migration is finalized.',
