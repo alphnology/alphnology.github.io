@@ -109,7 +109,7 @@ jQuery(document).ready(function () {
       'section-history-customer-service-#3': 'Eficiencia en la solución de problema',
       'section-history-paragraph-#4': 'Iniciaron la aventura de desarrollo, utilizando el lenguaje Java, específicamente con Java Swing y con algunas oportunidades comenzó la historia.',
       'section-history-paragraph-#5': 'Con el pasar de los años entendieron que para poder crear una plataforma más robusta, que les permitiera desarrollar proyectos mayores en tamaño y calidad, tomaron la decisión de formalizar todo su proceso y para esto agregar a un tercer miembro a la aventura. Este con su experiencia en áreas comerciales, buscaba complementar a las mentes maestras detrás de los desarrollos.',
-      'section-history-paragraph-#6': 'Nosotros somos Hector, Freddy, David y juntos formamos Alphnology, una historia que comenzó con dos jóvenes desarrolladores de software, hace ya 10 años, y que ahora buscan con nuevas ideas y propuestas brindar múltiples servicios tecnológicos que permitan a nuestros colaboradores cumplir sus metas, todo esto a través de herramientas pensadas y desarrolladas con el usuario siempre en mente.',
+      'section-history-paragraph-#6': 'Nosotros somos Hector, Freddy, David y juntos formamos Alphnology, una historia que comenzó con dos jóvenes desarrolladores de software, en el año 2009, y que ahora buscan con nuevas ideas y propuestas brindar múltiples servicios tecnológicos que permitan a nuestros colaboradores cumplir sus metas, todo esto a través de herramientas pensadas y desarrolladas con el usuario siempre en mente.',
       //======= History Section =======
       //
       //======= Footer Section =======
