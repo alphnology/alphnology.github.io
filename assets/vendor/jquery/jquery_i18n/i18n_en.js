@@ -67,18 +67,27 @@ jQuery(document).ready(function () {
       //
       //======= Services Section =======
       'section-services-header': 'Services',
-      'section-services-details': 'Technological multi-services',
-      'section-services-header-#1': 'Software development',
+      'section-services-details': 'Technological Multi-Services',
+      'section-services-header-#1': 'Software Development',
       'section-services-details-#1': 'We provide support to our users by developing new applications, maintaining existing applications, and providing transformative solutions tailored to your business needs.',
-      'section-services-header-#2': 'Data migration (ETL)',
+      'section-services-header-#2': 'Data Migration (ETL)',
       'section-services-details-#2': 'Creation and execution of the migration plan for different data types and business logic diagrams using the best practices for extraction, transformation , and loading of data (ETL), based on robust version control protocols.',
-      'section-services-header-#3': 'Technology project management',
+      'section-services-header-#3': 'Technology Project Management',
       'section-services-details-#3': 'Planning, organization, execution and quality assurance of all technological projects and business projects in general, using methodologies and best practices in the market.',
-      'section-services-header-#4': 'Technical consultancy',
+      'section-services-header-#4': 'Technical Consultancy',
       'section-services-details-#4': 'Personalized advice and the strategic support to successfully complete the digital transformation of your business.',
       'section-services-header-#5': 'Others',
       'section-services-details-#5': 'We offer multiple services to support the growth of your business.',
       //======= Services Section =======
+      //
+      //======= Products Section =======
+      'section-products-header': 'Products',
+      'section-products-details': 'Product Catalogue',
+      'section-products-header-#1': 'Chat Bot - AI',
+      'section-products-details-#1': 'Increase the reach to your customer in an automatic way with our Chatbot solution.',
+      'section-products-header-#2': 'Human Resources System',
+      'section-products-details-#2': 'The perfect solution to manage the most important asset in your company, the human capital.',
+      //======= Products Section =======
       //
       //======= Team Section =======
       'section-team-header': 'Team',

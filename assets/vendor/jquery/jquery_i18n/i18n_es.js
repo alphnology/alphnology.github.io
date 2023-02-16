@@ -67,18 +67,27 @@ jQuery(document).ready(function () {
       //
       //======= Services Section =======
       'section-services-header': 'Servicios',
-      'section-services-details': 'Multiservicios tecnológicos',
-      'section-services-header-#1': 'Desarrollo de software',
+      'section-services-details': 'Multiservicios Tecnológicos',
+      'section-services-header-#1': 'Desarrollo de Software',
       'section-services-details-#1': 'Brindamos soporte a nuestros colaboradores mediante el desarrollo de nuevas aplicaciones, el mantenimiento de las aplicaciones existentes y la creación de soluciones transformadoras adaptadas a su negocio.',
-      'section-services-header-#2': 'Migración de datos (ETL)',
+      'section-services-header-#2': 'Migración de Datos (ETL)',
       'section-services-details-#2': 'Elaboración y ejecución del plan de migración de distintos tipos de datos y diagramas de lógica empresarial, utilizando las mejores prácticas de extracción, transformación y carga (ETL), basado en protocolos de control de versiones con los más altos estándares de calidad.',
-      'section-services-header-#3': 'Gestión de proyectos tecnológicos',
+      'section-services-header-#3': 'Gestión de Proyectos Tecnológicos',
       'section-services-details-#3': 'Planeación, organización, ejecución y aseguramiento de la calidad para todos los proyectos tecnológicos y de negocios en general, utilizando metodologías y mejores prácticas líderes en el mercado.',
-      'section-services-header-#4': 'Consultoría técnica',
+      'section-services-header-#4': 'Consultoría Técnica',
       'section-services-details-#4': 'Asesoría personalizada y soporte estratégico para la exitosa transformación digital de su negocio.',
       'section-services-header-#5': 'Otros',
       'section-services-details-#5': 'Ofrecemos múltiples servicios para apoyar el crecimiento de su negocio.',
       //======= Services Section =======
+      //
+      //======= Products Section =======
+      'section-products-header': 'Products',
+      'section-products-details': 'Product Catalogue',
+      'section-products-header-#1': 'Chat Bot - AI',
+      'section-products-details-#1': 'Llega a más clientes y de manera automática con nuestra solución de Chatbot.',
+      'section-products-header-#2': 'Human Resources System',
+      'section-products-details-#2': 'La herramienta perfecta para gestionar el activo más importante de su empresa, el capital humano.',
+      //======= Products Section =======
       //
       //======= Team Section =======
       'section-team-header': 'Equipo',
