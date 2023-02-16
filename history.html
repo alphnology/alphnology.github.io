@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="lang" lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-
-  <title>Alphnology - Multiservicios</title>
+  <title data-i18n="title">Alphnology - Multiservices</title>
   <meta content="" name="description">
+
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -30,16 +30,39 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: FlexStart - v1.9.0
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <script type="text/javascript">
+    if (typeof (Storage) !== "undefined") {
+      // Code for localStorage/sessionStorage.
+      var userLang = localStorage.getItem("userLang")
+      if (userLang !== null) {
+        document.getElementById('lang').setAttribute('lang', userLang);
+      } else {
+        var userLang = navigator.language || navigator.userLanguage;
+        localStorage.setItem("userLang", userLang);
+        document.getElementById('lang').setAttribute('lang', userLang);
+      }
+    } else {
+      // Sorry! No Web Storage support..
+      var userLang = navigator.language || navigator.userLanguage;
+      document.getElementById('lang').setAttribute('lang', userLang);
+    }
+  </script>
 </head>
 
 <body>
-
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="languages d-md-flex align-items-center">
+        <ul>
+          <li><a href="#" tabindex="1" class="lang-switch" data-locale="en">English</a></li>
+          <li>|</li>
+          <li><a  href="#" tabindex="2" class="lang-switch" data-locale="es">Español</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- ======= Top Bar ======= -->
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -51,14 +74,13 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">Sobre nosotros</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">Servicios</a></li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio">Productos</a></li>
-          <li><a class="nav-link scrollto" href="index.html#team">Equipo</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <li><a class="nav-link scrollto" href="index.html#contact">Contacto</a></li>
-          <li><a class="getstarted scrollto" href="index.html#about">Empezar</a></li>
+          <li><a class="nav-link scrollto active" href="index.html" data-i18n="header-navbar-home">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about" data-i18n="header-navbar-about">About us</a></li>
+          <li><a class="nav-link scrollto" href="index.html#services" data-i18n="header-navbar-services">Services</a>
+          </li>
+          <!-- <li><a class="nav-link scrollto" href="#portfolio" data-i18n="header-navbar-portfolio">Products</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#team" data-i18n="header-navbar-team">Team</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact" data-i18n="header-navbar-contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,10 +95,10 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Historia</li>
+          <li><a href="index.html" data-i18n="header-navbar-home">Home</a></li>
+          <li data-i18n="history">History</li>
         </ol>
-        <h2>Historia</h2>
+        <h2 data-i18n="history">History</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -87,25 +109,27 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <p>Historia de la empresa</p>
+          <p data-i18n="section-history-header">History of the company</p>
         </header>
 
         <div class="row">
           <div class="col-lg-2">
           </div>
           <div class="col-lg-8">
-            <p style="text-align: justify;">Las alianzas suelen formarse de las maneras más inesperadas, y más aún en
-              los pasillos de las universidades donde los jóvenes con grandes ideas ( e igual de grandes ingenuidades)
-              comparten sus pensares con respecto al mundo que los rodea.
-              <br><br>
-              Nuestra historia inicia con el encuentro de jóvenes amantes de la tecnología, ambos con ideas muy claras
-              de lo que entendían le faltaba al mercado dominicano. La falta de herramientas tecnológicas de calidad y
-              acordes para cumplir las necesidades del mercado, los llevó por el camino del desarrollo de softwares,
-              buscando, según su entender, brindar al mercado softwares de calidad, aun cuando ellos aún no entendían en
-              su totalidad lo que esto implicaba.
-              <br><br>
-              La idea de comercializar softwares inició en esa etapa estudiantil donde basaron su trabajo en los
-              principios fundamentales del software y de servicio al cliente.
+            <p style="text-align: justify;" data-i18n="section-history-paragraph-#1">
+              Alliances tend to form in the most unexpected ways, and even more so in the halls of universities, where
+              young people with great ideas (and just as naive) share their thoughts about the world around them.
+            </p>
+            <p style="text-align: justify;" data-i18n="section-history-paragraph-#2">
+              Our story begins with the meeting of two young technology lovers, both with very clear ideas of what they
+              understood was lacking in the Dominican market. The lack of quality technological tools and chords to meet
+              the needs of the market led them along the path of software development, seeking, according to their
+              understanding, to provide the market with quality software, even though they still did not fully
+              understand what this implied.
+            </p>
+            <p style="text-align: justify;" data-i18n="section-history-paragraph-#3">
+              The idea of commercializing software began in that student stage where they based their work on the
+              fundamental principles of software and customer service.
             </p>
           </div>
           <div class="col-lg-2">
@@ -113,13 +137,13 @@
 
           <div class="section-history">
             <br>
-            <h1>Principios fundamentales del software</h1>
+            <h1 data-i18n="section-history-fundamental-principles-header">Fundamental principles of software</h1>
           </div>
 
           <div class="col-lg-1">
           </div>
           <div class="col-lg-5">
-            <img src="assets/img/features.png" class="img-fluid" alt="">
+            <img src="assets/img/fundamental_principles_software.svg" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-5 mt-5 mt-lg-0 d-flex">
@@ -128,42 +152,45 @@
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Sistema robusto y escalable</h3>
+                  <h3 data-i18n="section-history-fundamental-principles-#1">Robust and scalable system</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Acoplamiento y cohesión entres los distinto elementos</h3>
+                  <h3 data-i18n="section-history-fundamental-principles-#2">Coupling and cohesion between the different
+                    elements</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Fácil de mantener en el tiempo</h3>
+                  <h3 data-i18n="section-history-fundamental-principles-#3">Easy to maintain over time</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Satisfagan las necesidades de los clientes</h3>
+                  <h3 data-i18n="section-history-fundamental-principles-#4">Meet customer needs
+                  </h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Usabilidad</h3>
+                  <h3 data-i18n="section-history-fundamental-principles-#5">Usability</h3>
                 </div>
               </div>
 
               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Utilizar tecnología que cumplan con los requisitos del clientes</h3>
+                  <h3 data-i18n="section-history-fundamental-principles-#6">Use technology that meets customer
+                    requirements</h3>
                 </div>
               </div>
 
@@ -174,7 +201,7 @@
 
           <div class="section-history">
             <br><br><br>
-            <h1>Servicio al cliente</h1>
+            <h1 data-i18n="section-history-customer-service-header">Customer service</h1>
           </div>
 
           <div class="col-lg-1">
@@ -185,28 +212,28 @@
               <div class="col-md-4" data-aos="zoom-out" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Servicios personalizado y de calidad</h3>
+                  <h3 data-i18n="section-history-customer-service-#1">Personalized and quality services</h3>
                 </div>
               </div>
 
               <div class="col-md-4" data-aos="zoom-out" data-aos-delay="300">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Soporte preventivo y prematuro</h3>
+                  <h3 data-i18n="section-history-customer-service-#2">Preventive and premature support</h3>
                 </div>
               </div>
 
               <div class="col-md-4" data-aos="zoom-out" data-aos-delay="400">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Eficiencia en la solución de problema</h3>
+                  <h3 data-i18n="section-history-customer-service-#3">Efficiency in problem solving</h3>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <img src="assets/img/features-3.png" class="img-fluid" alt="">
+            <img src="assets/img/customer_service.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-1">
           </div>
@@ -215,19 +242,11 @@
           </div>
           <div class="col-lg-8">
             <br><br><br>
-            <p style="text-align: justify;">Iniciaron la aventura de desarrollo, utilizando el lenguaje Java,
-              específicamente con Java Swing y con algunas oportunidades comenzó la historia.
-              <br><br>
-              Con el pasar de los años entendieron que para poder crear una plataforma más robusta, que les permitiera
-              desarrollar proyectos mayores en tamaño y calidad, tomaron la decisión de formalizar todo su proceso y
-              para esto agregar a un tercer miembro a la aventura. Este con su experiencia en áreas comerciales, buscaba
-              complementar a las mentes maestras detrás de los desarrollos.
-              <br><br>
-              Nosotros somos Hector, Freddy, David y juntos formamos Alphnology, una historia que comenzó con dos
-              jóvenes desarrolladores de software, hace ya 10 años, y que ahora buscan con nuevas ideas y propuestas
-              brindar múltiples servicios tecnológicos que permitan a nuestros colaboradores cumplir sus metas, todo
-              esto a través de herramientas pensadas y desarrolladas con el usuario siempre en mente.
-
+            <p style="text-align: justify;" data-i18n="section-history-paragraph-#4">
+            </p>
+            <p style="text-align: justify;" data-i18n="section-history-paragraph-#5">
+            </p>
+            <p style="text-align: justify;" data-i18n="section-history-paragraph-#6">
             </p>
           </div>
           <div class="col-lg-2">
@@ -241,90 +260,90 @@
 
   </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
 
-
-      <div class="footer-top">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-lg-4 col-md-12 footer-info">
-              <a href="index.html" class="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="">
-                <span>Alphnology</span>
-              </a>
-              <p>Ofrecemos soluciones para hacer crecer su negocio.</p>
-              <div class="social-links mt-3">
-                <a href="https://api.whatsapp.com/send?phone=+18298202626" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
-                <a href="https://t.me/fredpena" target="_blank" class="telegram"><i class="bi bi-telegram"></i></a><br>
-                <a href="https://www.instagram.com/alphnology/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="https://web.facebook.com/Alphnology/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://twitter.com/alphnology" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/alphnology/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a><br>
-                <a href="https://github.com/alphnology" target="_blank" class="github"><i class="bi bi-github"></i></a>
-  
-              </div>
-            </div>
-  
-            <div class="col-lg-2 col-6 footer-links">
-              <h4>Enlaces útiles</h4>
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#about">Sobre nosotros</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#services">Servicios</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Productos</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#team">Equipo</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contacto</a></li>
-              </ul>
-            </div>
-  
-            <div class="col-lg-3 col-6 footer-links">
-              <h4>Productos y servicios</h4>
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="#services">Gestión de proyectos</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#services">Migración de datos (ETL)</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#services">Consultoría</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Gestión de colas</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Laboratorio patologico</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Agrimensura</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Chatbot</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">B2B</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Contabilidad general</a></li>
-              </ul>
-            </div>
-  
-            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-              <h4>Contacta con nosotros</h4>
-              <p>
-                <a href="https://www.google.com/maps/place/Santiago+De+Los+Caballeros" target="_blank">
-                  <p>Santiago De Los Caballeros, Rep. Dom.</p>
-                </a>
-                <strong>Teléfonos:</strong><br>  
-                <a href="tel:18092491458">+1 809 249 1458</a><br>
-                <a href="tel:18298202626">+1 829 820 2626</a><br>
-                <a href="tel:14696905583">+1 469 690 5583</a><br>
-                <strong>Correo: </strong><a href = "mailto:info@alphnology.com">info@alphnology.com</a><br>
-              </p>
-  
-            </div>
-  
-          </div>
-        </div>
-      </div>
-  
+    <div class="footer-top">
       <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>Alphnology</span>
+            </a>
+            <p data-i18n="section-footer-header-#1">We offer solutions to grow your business.</p>
+            <div class="social-links mt-3">
+              <a href="https://api.whatsapp.com/send?phone=+18092151611" target="_blank" class="whatsapp"><i
+                  class="bi bi-whatsapp"></i></a>
+              <a href="https://t.me/alphnology" target="_blank" class="telegram"><i class="bi bi-telegram"></i></a><br>
+              <a href="https://www.instagram.com/alphnology/" target="_blank" class="instagram"><i
+                  class="bi bi-instagram"></i></a>
+              <a href="https://web.facebook.com/Alphnology/" target="_blank" class="facebook"><i
+                  class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/alphnology" target="_blank" class="twitter"><i
+                  class="bi bi-twitter"></i></a><br>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <!-- <h4>Productos y servicios</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Gestión de proyectos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Migración de datos (ETL)</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#services">Consultoría</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Gestión de colas</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Laboratorio patologico</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Agrimensura</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Chatbot</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">B2B</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#portfolio">Contabilidad general</a></li>
+            </ul> -->
+          </div>
+
+          <div class="col-lg-3 col-6 footer-links">
+            <h4 data-i18n="section-footer-header-#2">Helpful links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#hero" data-i18n="header-navbar-home">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#about" data-i18n="header-navbar-about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#services"
+                  data-i18n="header-navbar-services">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#team" data-i18n="header-navbar-team">Team</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#contact" data-i18n="header-navbar-contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4 data-i18n="contact-us">Contact us</h4>
+            <p>
+              <a href="https://www.google.com/maps/place/Santiago+De+Los+Caballeros" target="_blank">
+                <p>Santiago De Los Caballeros, Rep. Dom.</p>
+              </a>
+              <strong data-i18n="phone">Phone</strong>: <a href="tel:1809 215 1611">+1 809 215 1611</a><br>
+              <strong data-i18n="email">Email</strong>: <a href="mailto:info@alphnology.com">info@alphnology.com</a><br>
+            </p>
+
+          </div>
+
         </div>
       </div>
-    </footer><!-- End Footer -->
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
@@ -337,6 +356,19 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- jQuery i18n -->
+  <script src="assets/vendor/jquery/common/jquery.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/CLDRPluralRuleParser.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/jquery.i18n.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/jquery.i18n.messagestore.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/jquery.i18n.language.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/jquery.i18n.parser.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/jquery.i18n.emitter.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/i18n_en.js"></script>
+  <script src="assets/vendor/jquery/jquery_i18n/i18n_es.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
