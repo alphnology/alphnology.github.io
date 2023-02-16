@@ -83,9 +83,9 @@ jQuery(document).ready(function () {
       //======= Products Section =======
       'section-products-header': 'Products',
       'section-products-details': 'Product Catalogue',
-      'section-products-header-#1': 'Chat Bot - AI',
+      'section-products-header-#1': 'Chat Bot - IA',
       'section-products-details-#1': 'Llega a más clientes y de manera automática con nuestra solución de Chatbot.',
-      'section-products-header-#2': 'Human Resources System',
+      'section-products-header-#2': 'Sistema de Recursos Humanos',
       'section-products-details-#2': 'La herramienta perfecta para gestionar el activo más importante de su empresa, el capital humano.',
       //======= Products Section =======
       //
