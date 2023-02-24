@@ -81,8 +81,8 @@ jQuery(document).ready(function () {
       //======= Services Section =======
       //
       //======= Products Section =======
-      'section-products-header': 'Products',
-      'section-products-details': 'Product Catalogue',
+      'section-products-header': 'Productos',
+      'section-products-details': 'Catálogo de productos',
       'section-products-header-#1': 'Chat Bot - IA',
       'section-products-details-#1': 'Llega a más clientes y de manera automática con nuestra solución de Chatbot.',
       'section-products-header-#2': 'Sistema de Recursos Humanos',
