@@ -2400,3 +2400,35 @@ section {
   font-size  : 13px;
   color      : #012970;
 }
+
+/* Estilos para el botón flotante */
+#floatingWhatsApp {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  z-index: 9999;
+}
+
+#whatsappButton {
+  background-color: #50b83c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#floatingWhatsApp i {
+  position: absolute;
+  top: -35px;
+  right: 1%;
+  transform: translateX(50%);
+  font-size: 35px;
+  margin-right: 5px;
+}
+
+
+
