@@ -84,9 +84,21 @@ jQuery(document).ready(function () {
       'section-products-header': 'Products',
       'section-products-details': 'Product Catalogue',
       'section-products-header-#1': 'Chat Bot - AI',
-      'section-products-details-#1': 'Increase the reach to your customer in an automatic way with our Chatbot solution.',
+      'section-products-details-#1': 'Our Chatbot solution expands your customer reach automatically. Available 24/7, it streamlines support, freeing your team for critical issues. Customizable to your brand and integrated with multiple channels, it enhances customer experience, satisfaction, and business growth.',
       'section-products-header-#2': 'Human Resources System',
-      'section-products-details-#2': 'The perfect solution to manage the most important asset in your company, the human capital.',
+      'section-products-details-#2': 'Our solution effectively manages your company`s human capital. Efficiently track employee data, automate workflows, and enhance communication. Gain insights, boost productivity, and nurture a thriving workforce with our robust solution.',
+      'section-products-header-#3': 'CRM ',
+      'section-products-details-#3': 'Offers an unparalleled level of flexibility. You have the freedom to customize, build upon, integrate alongside, or even replace any component to perfectly align with your specific requirements. The CRM template comes equipped with a wide range of customizable features that empower you to streamline your sales processes with utmost efficiency.',
+      'section-products-header-#4': 'Case Management',
+      'section-products-details-#4': 'Highly advanced Case Management, which offers a remarkable level of flexibility. You can easily customize, build upon, integrate alongside, or even replace any component to perfectly align with your specific requirements.',
+      'section-products-header-#5': 'Single Sign-On (SSO)',
+      'section-products-details-#5': 'Add authentication to applications and secure services with minimum effort. No need to deal with storing users or authenticating users. SSO system provides user federation, strong authentication, user management, fine-grained authorization, and more.',
+      'section-products-header-#6': 'Change Data Capture (CDC)',
+      'section-products-details-#6': 'Start it up, point it at your databases, and your apps can start responding to all of the inserts, updates, and deletes that other apps commit to your databases. CDC is durable and fast, so your apps can respond quickly and never miss an event, even when things go wrong.',
+      'section-products-header-#7': 'Workflow',
+      'section-products-details-#7': 'Automation engine that models and executes business processes.  Workflow will asynchronously handle the execution of each action, working its way around transient errors and keeping an encrypted, auditable trace of all intermediary states until completion.',
+      'section-products-header-#8': 'Proxy - Gateway - Load Balancer',
+      'section-products-details-#8': 'Simplify networking complexity while designing, deploying, and operating applications. Reverse proxy and load balancer that makes deploying microservices easy, integrates with your existing infrastructure components and configures itself automatically and dynamically.',
       //======= Products Section =======
       //
       //======= Team Section =======
@@ -129,7 +141,7 @@ jQuery(document).ready(function () {
       //  
       //======= Services details Section =======
       'section-services-software-development-#1': 'Alphnology is a team of professionals focused on the development of solutions that help your business grow.',
-      'section-services-software-development-#2': 'Desarrollar productos tecnológicos a la medida de las necesidades de nuestros clientes es nuestro norte, todo esto, apoyado en las mejores metodologías de desarrollo de software, aplicando los procedimientos y controles adecuados para asegurar la calidad de los mismos. La eficacia a la hora de entregar los resultados nos mueve.',
+      'section-services-software-development-#2': 'Developing customized technological products tailored to the needs of our clients is our guiding principle. All of this is supported by the best software development methodologies, applying the appropriate procedures and controls to ensure their quality. Efficiency in delivering results drives us.',
       'section-services-software-development-#3': 'The accumulated experience throughout the years has led to the master of languages and technologies that allow us to find solutions to the needs of the customer. As a result, our designs and solutions have modular characteristics and take advantage of the benefits of reusing software.',
       'section-services-software-development-#4': 'This gives our customer more flexibility in their applications, maintenance is more effective and efficient, better performance and improved quality of the solutions.',
       'section-services-software-development-header-#1': 'Customize development',
