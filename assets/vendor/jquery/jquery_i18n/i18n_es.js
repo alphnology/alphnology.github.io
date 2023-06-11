@@ -82,11 +82,23 @@ jQuery(document).ready(function () {
       //
       //======= Products Section =======
       'section-products-header': 'Productos',
-      'section-products-details': 'Catálogo de productos',
+      'section-products-details': 'Catálogo de Productos',
       'section-products-header-#1': 'Chat Bot - IA',
-      'section-products-details-#1': 'Llega a más clientes y de manera automática con nuestra solución de Chatbot.',
+      'section-products-details-#1': 'Nuestra solución de Chatbot amplía automáticamente tu alcance con los clientes. Disponible las 24 horas del día, los 7 días de la semana, agiliza el soporte, liberando a tu equipo para asuntos críticos. Personalizable para tu marca e integrado con múltiples canales, mejora la experiencia y satisfacción del cliente, así como el crecimiento empresarial.',
       'section-products-header-#2': 'Sistema de Recursos Humanos',
-      'section-products-details-#2': 'La herramienta perfecta para gestionar el activo más importante de su empresa, el capital humano.',
+      'section-products-details-#2': 'Nuestra solución gestiona de manera efectiva el capital humano de tu empresa. Realiza un seguimiento eficiente de los datos de los empleados, automatiza los flujos de trabajo y mejora la comunicación. Obtén información, aumenta la productividad y fomenta un equipo de trabajo próspero con nuestra sólida solución.',
+      'section-products-header-#3': 'CRM ',
+      'section-products-details-#3': 'Ofrece un nivel de flexibilidad incomparable. Tienes la libertad de personalizar, construir, integrar o incluso reemplazar cualquier componente para adaptarlo perfectamente a tus requisitos específicos. La plantilla de CRM viene equipada con una amplia gama de funciones personalizables que te permiten optimizar tus procesos de venta con la máxima eficiencia.',
+      'section-products-header-#4': 'Gestión de Casos',
+      'section-products-details-#4': 'Un sistema de Gestión de Casos altamente avanzado, que ofrece un nivel notable de flexibilidad. Puedes personalizar fácilmente, construir, integrar o incluso reemplazar cualquier componente para adaptarlo perfectamente a tus requisitos específicos.',
+      'section-products-header-#5': 'Inicio de Sesión Único (SSO)',
+      'section-products-details-#5': 'Agrega autenticación a aplicaciones y asegura servicios con un esfuerzo mínimo. No es necesario lidiar con el almacenamiento o la autenticación de usuarios. El sistema SSO proporciona federación de usuarios, autenticación sólida, gestión de usuarios, autorización detallada y más.',
+      'section-products-header-#6': 'Captura de Datos Modificados (CDC)',
+      'section-products-details-#6': 'Inícialo, apúntalo hacia tus bases de datos y tus aplicaciones pueden comenzar a responder a todas las inserciones, actualizaciones y eliminaciones que otras aplicaciones realicen en tus bases de datos. CDC es duradero y rápido, por lo que tus aplicaciones pueden responder rápidamente y nunca perder un evento, incluso cuando surjan problemas.',
+      'section-products-header-#7': 'Flujo de Trabajo',
+      'section-products-details-#7': 'Motor de automatización que modela y ejecuta procesos comerciales. El flujo de trabajo manejará de forma asíncrona la ejecución de cada acción, trabajando alrededor de errores transitorios y manteniendo un rastro cifrado y auditable de todos los estados intermedios hasta su finalización.',
+      'section-products-header-#8': 'Proxy - Puerta de Enlace - Equilibrador de Carga',
+      'section-products-details-#8': 'Simplifica la complejidad de la red al diseñar, implementar y operar aplicaciones. Proxy inverso y equilibrador de carga que facilita la implementación de microservicios, se integra con los componentes de tu infraestructura existente y se configura automáticamente y de manera dinámica.',
       //======= Products Section =======
       //
       //======= Team Section =======
