@@ -31,6 +31,7 @@ jQuery(document).ready(function () {
       'schedules-day': 'Lunes - Viernes',
       'contact': 'Contacto',
       'services': 'Servicios',
+      'prodcuts': 'Prodcutos',
       // ======= Header =======
       'header-navbar-home': 'Inicio',
       'header-navbar-about': 'Sobre nosotros',
@@ -189,6 +190,40 @@ jQuery(document).ready(function () {
       'section-services-technology-project-management-#5-6': 'Rastreo de tiempos y dificultades',
       'section-services-technology-project-management-#5-7': 'Reportería sobre estatus del proyecto',
       //======= Services details Section =======
+      //
+      //======= Products details Section =======
+      'section-products-human-resources-#1': 'HRM es un sistema integral diseñado para gestionar eficazmente el capital humano, que se reconoce como el activo más valioso dentro de una empresa. Con el entendimiento de que los empleados juegan un papel crucial en el éxito de una organización, nuestro sistema HRM está diseñado para apoyar su desarrollo y bienestar.',
+      'section-products-human-resources-#2': 'Nuestro sistema está diseñado específicamente para cumplir con el marco legal y fiscal de la República Dominicana, asegurando que todos los procesos de recursos humanos y nómina se alineen con las regulaciones aplicables. Al adherirnos a los requisitos específicos del país, brindamos una solución confiable y compatible para las empresas que operan en la República Dominicana.',
+      'section-products-human-resources-#3': 'El módulo de Recursos Humanos dentro de nuestro sistema HRM sirve como un centro centralizado para administrar toda la información y los procesos relacionados con los empleados. Desde el mantenimiento de los datos maestros de los empleados hasta el seguimiento de las solicitudes de vacaciones y el historial disciplinario, este módulo permite a los profesionales de recursos humanos manejar de manera eficiente varios aspectos de la gestión de los empleados. También incluye funciones como la gestión de la estructura organizativa y los informes de los empleados, lo que permite a las empresas obtener información sobre su fuerza laboral y tomar decisiones informadas.',
+      'section-products-human-resources-#4': 'El módulo de Nómina, por su parte, se enfoca en agilizar la compleja tarea de gestión de salarios y compensaciones. Abarca el cálculo de salarios, deducciones, impuestos y otros componentes relacionados con la nómina, lo que garantiza pagos precisos y oportunos a los empleados. Además, el módulo permite la exportación y transferencia de información de nómina a los sistemas ERP preferidos o plataformas externas, lo que facilita la integración perfecta con otros procesos financieros y contables.',
+      'section-products-human-resources-#5': 'Al combinar estos dos potentes módulos, nuestro sistema HRM proporciona una solución integral que optimiza la gestión del capital humano, mejora la eficiencia operativa y promueve el cumplimiento legal. Empodera a las empresas en la República Dominicana para manejar de manera efectiva sus funciones de recursos humanos y nómina, contribuyendo en última instancia al éxito y crecimiento general de su organización.',
+      'section-products-human-resources-#6': 'Con estos dos módulos, nuestra herramienta proporciona una solución integral para la gestión humana de tu empresa, permitiendo una gestión eficiente de los recursos humanos y la generación de nóminas precisas y exportables.',
+      'section-products-human-resources-brochures': 'Ver folletos',
+      'section-products-human-resources-hr-module-header': 'Recursos Humanos',
+      'section-products-human-resources-hr-module-#1': 'El módulo de Recursos Humanos de nuestra herramienta ofrece una completa gestión de la información de los empleados en tu empresa. Este módulo se enfoca en potenciar el activo más valioso de tu empresa: el capital humano. A través de él, podrás gestionar de manera efectiva la información y el talento de tus empleados. Este módulo abarca las siguientes funcionalidades clave:',
+      'section-products-human-resources-hr-module-#1-1': 'Gestión de datos maestros del empleado',
+      'section-products-human-resources-hr-module-#1-2': 'Control de ingresos y beneficios extraordinarios',
+      'section-products-human-resources-hr-module-#1-3': 'Seguimiento de descuentos',
+      'section-products-human-resources-hr-module-#1-4': 'Gestión de vacaciones',
+      'section-products-human-resources-hr-module-#1-5': 'Registro de novedades y cambios',
+      'section-products-human-resources-hr-module-#1-6': 'Seguimiento del historial disciplinario',
+      'section-products-human-resources-hr-module-#1-7': 'Administración de prestaciones laborales',
+      'section-products-human-resources-hr-module-#1-8': 'Gestión de licencias médicas y permisos',
+      'section-products-human-resources-hr-module-#1-9': 'Informes de empleados: Proporciona una amplia variedad de informes, como la lista de empleados, el calendario de vacaciones, el historial de cambios y novedades, y otros informes necesarios para la toma de decisiones y el cumplimiento normativo.',
+      'section-products-human-resources-hr-module-#1-10': 'Entre otros',
+      'section-products-human-resources-payroll-module-header': 'Nómina',
+      'section-products-human-resources-payroll-module-#1': 'Dentro de nuestro sistema de Gestión de Recursos Humanos (HRM), el módulo de Nómina desempeña un papel fundamental al garantizar una correcta administración de los pagos y remuneraciones de tus empleados. Este módulo ofrece las siguientes funcionalidades:',
+      'section-products-human-resources-payroll-module-#1-1': 'Procesamiento de la nómina',
+      'section-products-human-resources-payroll-module-#1-2': 'Exportación/transferencia de nómina',
+      'section-products-human-resources-payroll-module-#1-3': 'Exportación/transferencia de recepción de pago',
+      'section-products-human-resources-payroll-module-#1-4': 'Gestión de regalías',
+      'section-products-human-resources-payroll-module-#1-5': 'Exportación/transferencia de regalías',
+      'section-products-human-resources-payroll-module-#1-6': 'Administración de bonificaciones',
+      'section-products-human-resources-payroll-module-#1-7': 'Exportación/transferencia de bonificación',
+      'section-products-human-resources-payroll-module-#1-8': 'Generación de informes: Proporciona una amplia variedad de informes relacionados con la nómina, como historial de pagos, descuento de ley, informes requeridos por la Tesorería de la Seguridad Social (TSS), comprobantes de pago y resúmenes de ingresos devengados.',
+      'section-products-human-resources-payroll-module-#1-9': 'Entre otros',
+      'section-products-human-resources-payroll-module-#2': 'Con nuestro módulo de Nómina, puedes asegurarte de que tus empleados reciban sus pagos de manera precisa y oportuna, además de contar con la capacidad de exportar la información necesaria hacia otros sistemas externos para su posterior procesamiento contable y financiero.',
+      //======= Products details Section =======
       //
       //======= F.A.Q Section =======
       'section-faq-header': 'Preguntas frecuentes',
