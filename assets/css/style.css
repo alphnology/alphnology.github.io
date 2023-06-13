@@ -746,6 +746,14 @@ section {
   margin     : 0;
 }
 
+.features .feature-box h4 {
+  /* font-size: 18px; */
+  font-size  : 16px;
+  color      : #444444;
+  font-weight: 600;
+  margin     : 0;
+}
+
 .features .feature-box i {
   line-height  : 0;
   background   : #ecf3ff;
@@ -1743,6 +1751,18 @@ section {
 }
 
 .blog .entry .entry-title p {
+  color     : #012970;
+  transition: 0.3s;
+}
+
+.blog .entry .entry-second-title {
+  font-size  : 22px;
+  font-weight: bold;
+  padding    : 0;
+  margin     : 0 0 20px 0;
+}
+
+.blog .entry .entry-second-title p {
   color     : #012970;
   transition: 0.3s;
 }

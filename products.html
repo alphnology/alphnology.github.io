@@ -47,16 +47,15 @@
       document.getElementById('lang').setAttribute('lang', userLang);
     }
 
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
+    var anchor = window.location.hash;
+    console.log(anchor);
 
-    var product = urlParams.get('products');
     window.onload = function () {
-      datai18n = 'Services';
-      if (product == '1') {
+      datai18n = 'products';
+      if (anchor == '#chat-bot') {
         datai18n = 'section-products-header-#1';
         $("#includedContent").load("products/chat-bot.html");
-      } else if (product == '2') {
+      } else if (anchor == '#hrm') {
         datai18n = 'section-products-header-#2';
         $("#includedContent").load("products/human-resources.html");
       }
