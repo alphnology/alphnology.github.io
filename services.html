@@ -47,25 +47,24 @@
       document.getElementById('lang').setAttribute('lang', userLang);
     }
 
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
+    var anchor = window.location.hash;
+    console.log(anchor)
 
-    var services = urlParams.get('services');
     window.onload = function () {
       datai18n = 'Services';
-      if (services == '1') {
+      if (anchor == '#software-development') {
         datai18n = 'section-services-header-#1';
         $("#includedContent").load("services/software-development.html");
-      } else if (services == '2') {
+      } else if (anchor == '#data-migration') {
         datai18n = 'section-services-header-#2';
         $("#includedContent").load("services/data-migration.html");
-      } else if (services == '3') {
+      } else if (anchor == '#technology-project-management') {
         datai18n = 'section-services-header-#3';
         $("#includedContent").load("services/technology-project-management.html");
-      } else if (services == '4') {
+      } else if (anchor == '#technical-consultancy') {
         datai18n = 'section-services-header-#4';
         $("#includedContent").load("services/technical-consultancy.html");
-      } else if (services == '5') {
+      } else if (anchor == '#others') {
         datai18n = 'section-services-header-#5';
         $("#includedContent").load("services/others.html");
       }
@@ -75,6 +74,11 @@
 </head>
 
 <body>
+   <!-- El botón flotante de WhatsApp -->
+ <div id="floatingWhatsApp">
+  <i class="ri-whatsapp-fill icon"></i>
+  <button id="whatsappButton">WhatsApp</button>
+</div>
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">

@@ -46,10 +46,17 @@
       var userLang = navigator.language || navigator.userLanguage;
       document.getElementById('lang').setAttribute('lang', userLang);
     };
+
   </script>
 </head>
 
 <body>
+  <!-- El botón flotante de WhatsApp -->
+  <div id="floatingWhatsApp">
+    <i class="ri-whatsapp-fill icon"></i>
+    <button id="whatsappButton">WhatsApp</button>
+  </div>
+
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -63,6 +70,8 @@
     </div>
   </div>
   <!-- ======= Top Bar ======= -->
+
+  <!-- ======= Header ======= -->
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -82,10 +91,14 @@
           <li><a class="nav-link scrollto" href="#contact" data-i18n="header-navbar-contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- End Header -->
+  <!-- End Header -->
+
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
 
@@ -125,14 +138,16 @@
               <h3 data-i18n="section-about-about">About us</h3>
               <h2 data-i18n="section-about-mision">Mision</h2>
               <p style="text-align: justify;" data-i18n="section-about-mision-details">We believe that with the right
-                tools, everyone can achieve their goals. By developing system solutions that meet your needs, we want to
+                tools, everyone can achieve their goals. By developing system solutions that meet your needs, we want
+                to
                 provide our support so that all of our employees achieve their goals.</p>
               <h2 data-i18n="section-about-vision">Vision</h2>
               <p style="text-align: justify;" data-i18n="section-about-vision-details">Empower our employees with the
                 necessary tools to meet their objectives and build a better future.</p>
               <h2 data-i18n="history">History</h2>
               <p style="text-align: justify;" data-i18n="section-about-history-details">Alliances tend to form in the
-                most unexpected ways, and even more so in the halls of universities, where young people with great ideas
+                most unexpected ways, and even more so in the halls of universities, where young people with great
+                ideas
                 (and just as naive) share their thoughts about the world around them.</p>
               <div class="text-center text-lg-start">
                 <a href="history.html"
@@ -234,10 +249,11 @@
             <div class="service-box blue">
               <i class="ri-code-box-line icon"></i>
               <h3 data-i18n="section-services-header-#1">Software development</h3>
-              <p data-i18n="section-services-details-#1">We provide support to our users by developing new applications,
+              <p data-i18n="section-services-details-#1">We provide support to our users by developing new
+                applications,
                 maintaining existing applications, and providing transformative solutions tailored to your business
                 needs.</p>
-              <a href="services.html?services=1" class="read-more"><span data-i18n="read-more">Read More</span> <i
+              <a href="services.html#software-development" class="read-more"><span data-i18n="read-more">Read More</span> <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -246,10 +262,12 @@
             <div class="service-box blue">
               <i class="ri-database-2-fill icon"></i>
               <h3 data-i18n="section-services-header-#2">Data migration (ETL)</h3>
-              <p data-i18n="section-services-details-#2">Creation and execution of the migration plan for different data
-                types and business logic diagrams using the best practices for extraction, transformation , and loading
+              <p data-i18n="section-services-details-#2">Creation and execution of the migration plan for different
+                data
+                types and business logic diagrams using the best practices for extraction, transformation , and
+                loading
                 of data (ETL), based on robust version control protocols.</p>
-              <a href="services.html?services=2" class="read-more"><span data-i18n="read-more">Read More</span> <i
+              <a href="services.html#data-migration" class="read-more"><span data-i18n="read-more">Read More</span> <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -258,10 +276,11 @@
             <div class="service-box blue">
               <i class="ri-bar-chart-box-line icon"></i>
               <h3 data-i18n="section-services-header-#3">Technology project management</h3>
-              <p data-i18n="section-services-details-#3">Planning, organization, execution and quality assurance of all
+              <p data-i18n="section-services-details-#3">Planning, organization, execution and quality assurance of
+                all
                 technological projects and business projects in general, using methodologies and best practices in the
                 market.</p>
-              <a href="services.html?services=3" class="read-more"><span data-i18n="read-more">Read More</span> <i
+              <a href="services.html#technology-project-management" class="read-more"><span data-i18n="read-more">Read More</span> <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -274,7 +293,7 @@
               <h3 data-i18n="section-services-header-#4">Technical consultancy</h3>
               <p data-i18n="section-services-details-#4">Personalized advice and the strategic support to successfully
                 complete the digital transformation of your business.</p>
-              <a href="services.html?services=4" class="read-more"><span data-i18n="read-more">Read More</span>
+              <a href="services.html#technical-consultancy" class="read-more"><span data-i18n="read-more">Read More</span>
                 <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -285,7 +304,7 @@
               <h3 data-i18n="section-services-header-#5">Others</h3>
               <p data-i18n="section-services-details-#5">We offer multiple services to support the growth of your
                 business.</p>
-              <a href="services.html?services=5" class="read-more"><span data-i18n="read-more">Read More</span> <i
+              <a href="services.html#others" class="read-more"><span data-i18n="read-more">Read More</span> <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div>
@@ -298,8 +317,8 @@
 
     </section><!-- End Services Section -->
 
-     <!-- ======= Portfolio Section ======= -->
-     <section id="portfolio" class="services">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="services">
 
       <div class="container" data-aos="fade-up">
 
@@ -310,30 +329,115 @@
 
         <div class="row gy-3">
 
-          <div class="col-lg-2">
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-box blue">
-              <i class="ri-message-line icon"></i>
+              <i class="ri-robot-line icon"></i>
               <h3 data-i18n="section-products-header-#1">Chat Bot - AI</h3>
-              <p data-i18n="section-products-details-#1">Increase the reach to your customer in an automatic way with our Chatbot solution.</p>
-              <a href="assets/pdf/brochures/ChatBot - Alphnology.pdf" class="read-more" target="_blank"><span data-i18n="read-more">Read More</span> <i
+              <p data-i18n="section-products-details-#1">Our Chatbot solution expands your customer reach
+                automatically.
+                Available 24/7, it streamlines support, freeing your team for critical issues. Customizable to your
+                brand and integrated with multiple channels, it enhances customer experience, satisfaction, and
+                business
+                growth.</p>
+                <a href="products.html#chat-bot" class="read-more"><span data-i18n="read-more">Read More</span> <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box blue">
               <i class="ri-folder-user-line icon"></i>
               <h3 data-i18n="section-products-header-#2">Human Resources System</h3>
-              <p data-i18n="section-products-details-#2">The perfect solution to manage the most important asset in your company, the human capital.</p>
-              <a href="assets/pdf/brochures/Recursos Humanos - Alphnology.pdf" class="read-more" target="_blank"><span data-i18n="read-more">Read More</span> <i
+              <p data-i18n="section-products-details-#2">Our solution effectively manages your company`s human
+                capital.
+                Efficiently track employee data, automate workflows, and enhance communication. Gain insights, boost
+                productivity, and nurture a thriving workforce with our robust solution.</p>
+                <a href="products.html#hrm" class="read-more"><span data-i18n="read-more">Read More</span> <i
+                  class="bi bi-arrow-right"></i></a>
+              <!-- <a href="assets/pdf/brochures/Recursos Humanos - Alphnology.pdf" class="read-more" target="_blank"><span
+                  data-i18n="read-more">Read More</span> <i class="bi bi-arrow-right"></i></a> -->
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box blue">
+              <i class="ri-customer-service-line icon"></i>
+              <h3 data-i18n="section-products-header-#3">CRM</h3>
+              <p data-i18n="section-products-details-#3">Offers an unparalleled level of flexibility. You have the
+                freedom to customize, build upon, integrate alongside, or even replace any component to perfectly
+                align
+                with your specific requirements. The CRM template comes equipped with a wide range of customizable
+                features that empower you to streamline your sales processes with utmost efficiency. </p>
+              <a href="#portfolio" class="read-more"><span data-i18n="read-more">Read More</span>
+                <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box blue">
+              <i class="ri-tools-line icon"></i>
+              <h3 data-i18n="section-products-header-#4">Case Management</h3>
+              <p data-i18n="section-products-details-#4">Highly advanced Case Management, which offers a remarkable
+                level of flexibility. You can easily customize, build upon, integrate alongside, or even replace any
+                component to perfectly align with your specific requirements.</p>
+              <a href="#portfolio" class="read-more" target="_blank"><span data-i18n="read-more">Read More</span> <i
                   class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-2">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box dark-blue">
+              <i class="ri-login-box-line icon"></i>
+              <h3 data-i18n="section-products-header-#5">Single Sign-On (SSO)</h3>
+              <p data-i18n="section-products-details-#5">Add authentication to applications and secure services with
+                minimum effort. No need to deal with storing users or authenticating users. SSO system provides user
+                federation, strong authentication, user management, fine-grained authorization, and more.'</p>
+              <a href="#portfolio" class="read-more"><span data-i18n="read-more">Read More</span>
+                <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box dark-blue">
+              <i class="ri-database-2-line icon"></i>
+              <h3 data-i18n="section-products-header-#6">Change Data Capture (CDC)</h3>
+              <p data-i18n="section-products-details-#6">Start it up, point it at your databases, and your apps can
+                start responding to all of the inserts, updates, and deletes that other apps commit to your databases.
+                CDC is durable and fast, so your apps can respond quickly and never miss an event, even when things go
+                wrong.</p>
+              <a href="#portfolio" class="read-more"><span data-i18n="read-more">Read More</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box dark-blue">
+              <i class="ri-flow-chart icon"></i>
+              <h3 data-i18n="section-products-header-#7">Workflow</h3>
+              <p data-i18n="section-products-details-#7">Automation engine that models and executes business
+                processes.
+                Workflow will asynchronously handle the execution of each action, working its way around transient
+                errors and keeping an encrypted, auditable trace of all intermediary states until completion.</p>
+              <a href="#portfolio" class="read-more"><span data-i18n="read-more">Read More</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box dark-blue">
+              <i class="ri-home-gear-line icon"></i>
+              <h3 data-i18n="section-products-header-#8">Proxy - Gateway - LoadBalancer</h3>
+              <p data-i18n="section-products-details-#8">Simplify networking complexity while designing, deploying,
+                and
+                operating applications. Reverse proxy and load balancer that makes deploying microservices easy,
+                integrates with your existing infrastructure components and configures itself automatically and
+                dynamically.</p>
+              <a href="#portfolio" class="read-more"><span data-i18n="read-more">Read More</span> <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
 
         </div>
@@ -359,6 +463,7 @@
               <div class="member-img">
                 <img src="assets/img/team/fred.jpg" class="img-fluid" alt="">
                 <div class="social">
+                  <a href="mailto:freddy.pena@alphnology.com"><i class="bi bi-envelope"></i></a>
                   <a href="https://twitter.com/fred_pena" target="_blank"><i class="bi bi-twitter"></i></a>
                   <a href="https://www.linkedin.com/in/fantpena/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -380,6 +485,7 @@
               <div class="member-img">
                 <img src="assets/img/team/hector.jpg" class="img-fluid" alt="">
                 <div class="social">
+                  <a href="mailto:hector.ventura@alphnology.com"><i class="bi bi-envelope"></i></a>
                   <a href="https://twitter.com/hectorvent" target="_blank"><i class="bi bi-twitter"></i></a>
                   <a href="https://www.linkedin.com/in/hectorvent/" target="_blank"><i class="bi bi-linkedin"></i></a>
                 </div>
@@ -387,10 +493,13 @@
               <div class="member-info">
                 <h4>Hector Ventura</h4>
                 <span data-i18n="section-team-header-#2">Founder and Software Engineer</span>
-                <p data-i18n="section-team-details-#2">Systems engineer and teacher by vocation. with more than 10 years
-                  of experience in the development of scalable and high-concurrency systems. I was a professor of Linux
+                <p data-i18n="section-team-details-#2">Systems engineer and teacher by vocation. with more than 10
+                  years
+                  of experience in the development of scalable and high-concurrency systems. I was a professor of
+                  Linux
                   Systems Administration at the Dominican Free Code Foundation and a professor at the Technological
-                  Institute of the Americas (ITLA). Member of the Dominican Java community and ardent supporter of open
+                  Institute of the Americas (ITLA). Member of the Dominican Java community and ardent supporter of
+                  open
                   source software.</p>
               </div>
             </div>
@@ -401,6 +510,7 @@
               <div class="member-img">
                 <img src="assets/img/team/david.jpg" class="img-fluid" alt="">
                 <div class="social">
+                  <a href="mailto:david.duran@alphnology.com"><i class="bi bi-envelope"></i></a>
                   <a href="https://www.linkedin.com/in/david-duran-luna/" target="_blank"><i
                       class="bi bi-linkedin"></i></a>
                 </div>
@@ -479,7 +589,8 @@
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#faq-content-3" data-i18n="section-faq-questions-#3">
-                    If I wanted a preliminary evaluation for a new project, with preliminary data, is it possible to get
+                    If I wanted a preliminary evaluation for a new project, with preliminary data, is it possible to
+                    get
                     it?
                   </button>
                 </h2>
@@ -554,33 +665,32 @@
             <iframe name="hiddenFrame" class="hide"></iframe>
 
 
-            <form id="contact-form" method="post" class="email-form" target="hiddenFrame"
-              action="https://us-central1-alphnology-cloud.cloudfunctions.net/sendMail">
+            <form id="contact-form" role="form" class="email-form">
               <div class="row gy-4">
 
                 <div class="col-md-12">
-                  <input data-i18n="[placeholder]section-contact-form-name" type="text" name="name" class="form-control"
-                    placeholder="Your Name" required>
+                  <input data-i18n="[placeholder]section-contact-form-name" type="text" id="name" name="name"
+                    class="form-control" placeholder="Your Name" required>
                 </div>
 
                 <div class="col-md-12 ">
                   <input data-i18n="[placeholder]section-contact-form-phone" type="tel" class="form-control"
-                    name="phone" placeholder="Phone Number" required>
+                    id="phone-number" name="phone-number" placeholder="Phone Number" required>
                 </div>
 
                 <div class="col-md-12">
                   <input data-i18n="[placeholder]section-contact-form-mailer" type="email" class="form-control"
-                    name="mailer" placeholder="Email" required>
+                    id="email" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="col-md-12">
                   <input data-i18n="[placeholder]section-contact-form-topic" type="text" class="form-control"
-                    name="topic" placeholder="Subject" required>
+                    id="subject" name="subject" placeholder="Subject" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea data-i18n="[placeholder]section-contact-form-content" class="form-control" name="content"
-                    rows="6" placeholder="Message" required></textarea>
+                  <textarea data-i18n="[placeholder]section-contact-form-content" class="form-control" id="message"
+                    name="message" rows="6" placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
@@ -593,51 +703,87 @@
                   <button type="submit" data-i18n="section-contact-form-submit">Send Message</button>
                   <button type="reset" data-i18n="section-contact-form-reset">Reset</button>
 
-                  <script type="text/javascript">
-                    var loading = document.getElementById('loading')
-                    var errorMessage = document.getElementById('error-message')
-                    var sentMessage = document.getElementById('sent-message')
-
-                    document.forms['contact-form'].addEventListener('submit', (event) => {
-                      event.preventDefault();
-                      // TODO do something here to show user that form is being submitted
-                      loading.style.display = 'block';
-
-                      fetch(event.target.action, {
-                        method: 'POST',
-                        body: new URLSearchParams(new FormData(event.target)) // event.target is the form
-                      }).then((resp) => {
-                        loading.style.display = 'none';
-
-                        setTimeout(function () {
-                          sentMessage.style.display = 'none';
-                          errorMessage.style.display = 'none';
-                        }, 3000);
-
-                        if (resp.status === 200) {
-                          sentMessage.style.display = 'block';
-                        } else {
-                          errorMessage.style.display = 'block';
-                        }
-
-                        return resp.text(); // or resp.text() or whatever the server sends
-                      }).then((body) => {
-                        // TODO handle body
-                      }).catch((e) => {
-                        loading.style.display = 'none';
-                        errorMessage.style.display = 'block';
-
-                        setTimeout(function () {
-                          errorMessage.style.display = 'none';
-                        }, 3000);
-
-                        // TODO handle error
-                      });
-                    });
-                  </script>
                 </div>
-
               </div>
+
+              <script type="text/javascript">
+
+                document.forms['contact-form'].addEventListener('submit', (event) => {
+                  event.preventDefault(); // Prevent form submission
+
+                  var loading = document.getElementById('loading');
+                  var errorMessage = document.getElementById('error-message');
+                  var sentMessage = document.getElementById('sent-message');
+
+
+                  // // Get form field values
+                  var name = document.getElementById('name').value;
+                  var phoneNumber = document.getElementById('phone-number').value;
+                  var email = document.getElementById('email').value;
+                  var subject = document.getElementById('subject').value;
+                  var message = document.getElementById('message').value;
+
+                  var content =
+                    `<div class="email-container">
+                            <h3>Feedback</h3>
+                            <p>Dear Alphnology Team,</p>
+                            <p>Here is some comments I would like to share:</p>
+                            <ul class="detail-list">
+                                <li><strong>Name:</strong> `+ name + `</li>
+                                <li><strong>Phone number:</strong> `+ phoneNumber + `</li>
+                                <li><strong>Email:</strong> `+ email + `</li>
+                            </ul>
+                            <p>` + message + `</p>
+                        </div>`
+
+                  var myHeaders = new Headers();
+                  myHeaders.append("Content-Type", "application/json");
+
+                  var raw = JSON.stringify({
+                    "subject": subject,
+                    "content": content,
+                    "source": "ALPHNOLOGY"
+                  });
+
+                  var requestOptions = {
+                    method: 'POST',
+                    headers: myHeaders,
+                    body: raw,
+                    redirect: 'follow'
+                  };
+
+                  fetch("https://faas-nyc1-2ef2e6cc.doserverless.co/api/v1/web/fn-9054e4b1-918f-409d-9681-dddcf57a2dff/functions/emails", requestOptions)
+                    .then((resp) => {
+                      loading.style.display = 'none';
+
+                      setTimeout(function () {
+                        sentMessage.style.display = 'none';
+                        errorMessage.style.display = 'none';
+                      }, 3000);
+
+                      if (resp.status === 202) {
+                        sentMessage.style.display = 'block';
+                      } else {
+                        errorMessage.style.display = 'block';
+                      }
+
+                      return resp.text(); // or resp.text() or whatever the server sends
+                    }).then((body) => {
+                      // TODO handle body
+                    }).catch((e) => {
+                      loading.style.display = 'none';
+                      errorMessage.style.display = 'block';
+
+                      setTimeout(function () {
+                        errorMessage.style.display = 'none';
+                      }, 3000);
+
+                      // TODO handle error
+                    });
+                });
+
+
+              </script>
             </form>
           </div>
         </div>
@@ -691,9 +837,11 @@
             <h4 data-i18n="section-footer-header-#2">Helpful links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#hero" data-i18n="header-navbar-home">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#about" data-i18n="header-navbar-about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#about" data-i18n="header-navbar-about">About us</a>
+              </li>
               <li><i class="bi bi-chevron-right"></i> <a href="#services"
-                  data-i18n="header-navbar-services">Services</a></li>
+                  data-i18n="header-navbar-services">Services</a>
+              </li>
               <li><i class="bi bi-chevron-right"></i> <a href="#team" data-i18n="header-navbar-team">Team</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#contact" data-i18n="header-navbar-contact">Contact</a>
               </li>
@@ -758,6 +906,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 

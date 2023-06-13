@@ -746,6 +746,14 @@ section {
   margin     : 0;
 }
 
+.features .feature-box h4 {
+  /* font-size: 18px; */
+  font-size  : 16px;
+  color      : #444444;
+  font-weight: 600;
+  margin     : 0;
+}
+
 .features .feature-box i {
   line-height  : 0;
   background   : #ecf3ff;
@@ -1747,6 +1755,18 @@ section {
   transition: 0.3s;
 }
 
+.blog .entry .entry-second-title {
+  font-size  : 22px;
+  font-weight: bold;
+  padding    : 0;
+  margin     : 0 0 20px 0;
+}
+
+.blog .entry .entry-second-title p {
+  color     : #012970;
+  transition: 0.3s;
+}
+
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
@@ -2400,3 +2420,35 @@ section {
   font-size  : 13px;
   color      : #012970;
 }
+
+/* Estilos para el botón flotante */
+#floatingWhatsApp {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  z-index: 9999;
+}
+
+#whatsappButton {
+  background-color: #50b83c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#floatingWhatsApp i {
+  position: absolute;
+  top: -35px;
+  right: 1%;
+  transform: translateX(50%);
+  font-size: 35px;
+  margin-right: 5px;
+}
+
+
+

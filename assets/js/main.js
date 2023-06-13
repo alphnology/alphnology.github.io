@@ -286,6 +286,19 @@
 
   window.addEventListener('load', () => {
     aos_init();
+
   });
+
+  // Replace "YOUR_PHONE_NUMBER" with your actual phone number, including the country code.
+  const phoneNumber = "18092151611";
+
+  // Function to open WhatsApp chat
+  function openWhatsApp() {
+    window.open(`https://api.whatsapp.com/send?phone=${phoneNumber}`, "_blank");
+  }
+
+  // Add click event listener to the button
+  const whatsappButton = document.getElementById("whatsappButton");
+  whatsappButton.addEventListener("click", openWhatsApp);
 
 })();
