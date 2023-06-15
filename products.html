@@ -48,7 +48,6 @@
     }
 
     var anchor = window.location.hash;
-    console.log(anchor);
 
     window.onload = function () {
       datai18n = 'products';
@@ -58,6 +57,9 @@
       } else if (anchor == '#hrm') {
         datai18n = 'section-products-header-#2';
         $("#includedContent").load("products/human-resources.html");
+      }else if (anchor == '#crm') {
+        datai18n = 'section-products-header-#3';
+        $("#includedContent").load("products/crm.html");
       }
       document.getElementById('breadcrumbs-products').setAttribute('data-i18n', datai18n);
     }
