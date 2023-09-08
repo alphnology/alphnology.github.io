@@ -31,7 +31,7 @@ jQuery(document).ready(function () {
       'schedules-day': 'Lunes - Viernes',
       'contact': 'Contacto',
       'services': 'Servicios',
-      'prodcuts': 'Prodcutos',
+      'prodcuts': 'Productos',
       // ======= Header =======
       'header-navbar-home': 'Inicio',
       'header-navbar-about': 'Sobre nosotros',
