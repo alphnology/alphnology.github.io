@@ -57,9 +57,16 @@
       } else if (anchor == '#hrm') {
         datai18n = 'section-products-header-#2';
         $("#includedContent").load("products/human-resources.html");
-      }else if (anchor == '#crm') {
+      } else if (anchor == '#crm') {
         datai18n = 'section-products-header-#3';
         $("#includedContent").load("products/crm.html");
+      } else if (anchor == '#timesched') {
+        datai18n = 'section-products-header-#9';
+        $("#includedContent").load("products/timesched.html");
+      }
+      else if (anchor == '#chat-alph') {
+        datai18n = 'section-products-header-#10';
+        $("#includedContent").load("products/chatalph.html");
       }
       document.getElementById('breadcrumbs-products').setAttribute('data-i18n', datai18n);
     }
@@ -67,11 +74,11 @@
 </head>
 
 <body>
-   <!-- El botón flotante de WhatsApp -->
- <div id="floatingWhatsApp">
-  <i class="ri-whatsapp-fill icon"></i>
-  <button id="whatsappButton">WhatsApp</button>
-</div>
+  <!-- El botón flotante de WhatsApp -->
+  <div id="floatingWhatsApp">
+    <i class="ri-whatsapp-fill icon"></i>
+    <button id="whatsappButton">WhatsApp</button>
+  </div>
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -100,7 +107,8 @@
           <li><a class="nav-link scrollto" href="index.html#about" data-i18n="header-navbar-about">About us</a></li>
           <li><a class="nav-link scrollto" href="index.html#services" data-i18n="header-navbar-services">Services</a>
           </li>
-          <li><a class="nav-link scrollto" href="index.html#portfolio" data-i18n="header-navbar-portfolio">Products</a></li>
+          <li><a class="nav-link scrollto" href="index.html#portfolio" data-i18n="header-navbar-portfolio">Products</a>
+          </li>
           <li><a class="nav-link scrollto" href="index.html#team" data-i18n="header-navbar-team">Team</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact" data-i18n="header-navbar-contact">Contact</a></li>
         </ul>
@@ -185,11 +193,14 @@
             <ul>
               <li><a class="nav-link scrollto active" href="index.html" data-i18n="header-navbar-home">Home</a></li>
               <li><a class="nav-link scrollto" href="index.html#about" data-i18n="header-navbar-about">About us</a></li>
-              <li><a class="nav-link scrollto" href="index.html#services" data-i18n="header-navbar-services">Services</a>
+              <li><a class="nav-link scrollto" href="index.html#services"
+                  data-i18n="header-navbar-services">Services</a>
               </li>
-              <li><a class="nav-link scrollto" href="index.html#portfolio" data-i18n="header-navbar-portfolio">Products</a></li>
+              <li><a class="nav-link scrollto" href="index.html#portfolio"
+                  data-i18n="header-navbar-portfolio">Products</a></li>
               <li><a class="nav-link scrollto" href="index.html#team" data-i18n="header-navbar-team">Team</a></li>
-              <li><a class="nav-link scrollto" href="index.html#contact" data-i18n="header-navbar-contact">Contact</a></li>
+              <li><a class="nav-link scrollto" href="index.html#contact" data-i18n="header-navbar-contact">Contact</a>
+              </li>
             </ul>
           </div>
 
