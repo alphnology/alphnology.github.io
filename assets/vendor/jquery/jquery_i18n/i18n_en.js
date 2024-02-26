@@ -49,8 +49,8 @@ jQuery(document).ready(function () {
       //
       //======= About Section =======
       'section-about-about': 'About us',
-      'section-about-mision': 'Mision',
-      'section-about-mision-details': 'We believe that with the right tools, everyone can achieve their goal. By developing systematic solutions that meet your needs, we want to provide our support so that all of our business partners meet their goals.',
+      'section-about-mission': 'Mission',
+      'section-about-mission-details': 'We believe that with the right tools, everyone can achieve their goal. By developing systematic solutions that meet your needs, we want to provide our support so that all of our business partners meet their goals.',
       'section-about-vision': 'Vision',
       'section-about-vision-details': 'Empower our business partners with the necessary tools to meet their objectives and build a better future.',
       'section-about-history-details': 'Alliances tend to form in the most unexpected ways, and even more so in the halls of universities, where young people with great ideas (and just as naive) share their thoughts about the world around them.',
@@ -141,7 +141,7 @@ jQuery(document).ready(function () {
       //======= History Section =======
       //
       //======= Footer Section =======
-      'section-footer-header-#1': 'We offer solutions to grow your business.',
+      'section-footer-header-#1': 'We offer solutions to support your business growth.',
       'section-footer-header-#2': 'Helpful links',
       //
       //======= Footer Section =======

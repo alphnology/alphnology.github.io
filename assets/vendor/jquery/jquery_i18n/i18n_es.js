@@ -25,7 +25,7 @@ jQuery(document).ready(function () {
       'history': 'Historia',
       'phone': 'Teléfonos',
       'email': 'Correo',
-      'contact-us': 'Contacta con nosotros',
+      'contact-us': 'Contáctanos',
       'address': 'Dirección',
       'schedules': 'Horarios',
       'schedules-day': 'Lunes - Viernes',
@@ -48,9 +48,9 @@ jQuery(document).ready(function () {
       //======= Hero Section =======
       //
       //======= About Section =======
-      'section-about-about': 'Quienes somos',
-      'section-about-mision': 'Misión',
-      'section-about-mision-details': 'Creemos que con las herramientas correctas todo el mundo puede lograr sus objetivos. Mediante el desarrollo de soluciones de sistemas que cumplan con sus necesidades, queremos brindar nuestro apoyo para que todos nuestros colaboradores alcancen sus metas.',
+      'section-about-about': 'Quiénes somos',
+      'section-about-mission': 'Misión',
+      'section-about-mission-details': 'Creemos que con las herramientas correctas todo el mundo puede lograr sus objetivos. Mediante el desarrollo de soluciones de sistemas que cumplan con sus necesidades, queremos brindar nuestro apoyo para que todos nuestros colaboradores alcancen sus metas.',
       'section-about-vision': 'Visión',
       'section-about-vision-details': 'Empoderar a nuestros colaboradores con las herramientas necesarias para cumplir sus objetivos y construir el futuro.',
       'section-about-history-details': 'Las alianzas suelen formarse de las maneras más inesperadas, y más aún en los pasillos de las universidades donde los jóvenes con grandes ideas ( e igual de grandes ingenuidades) comparten sus pensares con respecto al mundo que los rodea.',
