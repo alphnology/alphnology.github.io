@@ -20,7 +20,7 @@ jQuery(document).ready(function () {
 
   $.i18n().load({
     'en': {
-      'title': 'Alphnology - Multiservices',
+      'title': 'Alphnology',
       'read-more': 'Read more',
       'history': 'History',
       'phone': 'Phones',
@@ -137,11 +137,11 @@ jQuery(document).ready(function () {
       'section-history-customer-service-#3': 'Efficiency in problem solving',
       'section-history-paragraph-#4': 'They started the development adventure using the Java language, specifically with Java Swing, and with some opportunities, the story began.',
       'section-history-paragraph-#5': 'Over the years, they understood that in order to create a more robust platform that would allow them to develop larger projects in size and quality, they made the decision to formalize their entire process and, with it, add a third member to the adventure. The third member of the team, with his experience in commercial areas, sought to complement the masterminds behind the developments.',
-      'section-history-paragraph-#6': 'We are Hector, Freddy, and David, together we form Alphnology, a story that began with two young software developers in 2009, and now seeking with new ideas and proposals be able to provide multiple technological services that allow our collaborators to meet their goals, all this through tools designed and developed with the user always in mind.',
+      'section-history-paragraph-#6': 'We are Hector and Freddy, together we form Alphnology, a story that began with two young software developers in 2009, and now seeking with new ideas and proposals be able to provide multiple technological services that allow our collaborators to meet their goals, all this through tools designed and developed with the user always in mind.',
       //======= History Section =======
       //
       //======= Footer Section =======
-      'section-footer-header-#1': 'We offer solutions to support your business growth.',
+      'section-footer-header-#1': '',
       'section-footer-header-#2': 'Helpful links',
       //
       //======= Footer Section =======
