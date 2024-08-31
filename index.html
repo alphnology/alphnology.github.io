@@ -51,11 +51,6 @@
 </head>
 
 <body>
-  <!-- El botón flotante de WhatsApp -->
-  <div id="floatingWhatsApp">
-    <i class="ri-whatsapp-fill icon"></i>
-    <button id="whatsappButton">WhatsApp</button>
-  </div>
 
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
@@ -925,8 +920,8 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -952,6 +947,23 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    (function(d,t) {
+      var BASE_URL="https://octopus.alphnology.com";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.chatwootSDK.run({
+          websiteToken: '7rCXdsoZEXkJNvdpMtQRXcPE',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
+  </script>
+  
 
 </body>
 
