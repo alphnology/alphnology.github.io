@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alphnology - Ingeniería de software que escala tu visión. Soluciones enterprise, migración de datos y productos SaaS de clase mundial.">
+    <title>Alphnology | Ingeniería de Software Enterprise</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <a href="#" class="nav__logo">
+                <img src="img/logo.png" alt="Alphnology" class="nav__logo-img" width="279" height="60">
+            </a>
+
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#cases" class="nav__link">Casos</a></li>
+                <li><a href="#industries" class="nav__link">Industrias</a></li>
+                <li><a href="#services" class="nav__link">Servicios</a></li>
+                <li><a href="#products" class="nav__link">Productos</a></li>
+                <li><a href="#process" class="nav__link">Proceso</a></li>
+                <li><a href="#about" class="nav__link">Nosotros</a></li>
+                <li><a href="#faq" class="nav__link">FAQ</a></li>
+                <li><a href="#contact" class="nav__link nav__link--cta">Contacto</a></li>
+            </ul>
+
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__gradient"></div>
+        <div class="hero__container">
+            <div class="hero__badge reveal">
+                <span class="hero__badge-dot"></span>
+                Trusted by 50+ empresas en LATAM
+            </div>
+
+            <h1 class="hero__title reveal">
+                Transformamos su negocio con<br>
+                <span class="hero__title-gradient">soluciones tecnológicas de élite</span>
+            </h1>
+
+            <p class="hero__subtitle reveal">
+                Somos un equipo de profesionales apasionados por el desarrollo de soluciones innovadoras.
+                Impulsamos el crecimiento sostenido de nuestros clientes, optimizando procesos y aumentando rentabilidad.
+            </p>
+
+            <div class="hero__cta reveal">
+                <a href="#contact" class="btn btn--primary">
+                    Agenda una llamada
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#products" class="btn btn--secondary">Ver productos</a>
+            </div>
+
+            <div class="hero__stats reveal">
+                <div class="hero__stat">
+                    <span class="hero__stat-value">30+</span>
+                    <span class="hero__stat-label">Clientes activos</span>
+                </div>
+                <div class="hero__stat">
+                    <span class="hero__stat-value">4</span>
+                    <span class="hero__stat-label">Productos SaaS</span>
+                </div>
+                <div class="hero__stat">
+                    <span class="hero__stat-value">+15 años</span>
+                    <span class="hero__stat-label">De experiencia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By -->
+    <section class="trusted">
+        <div class="trusted__container">
+            <p class="trusted__label reveal">Confían en nosotros</p>
+            <div class="trusted__carousel reveal" id="trustedCarousel">
+                <div class="trusted__list" aria-live="polite">
+                    <div class="trusted__client">
+                        <div class="trusted__logo-wrap">
+                            <img src="img/clients/placeholder-logo.svg" alt="Punto Intimo" class="trusted__logo-img">
+                        </div>
+                        <span class="trusted__name">Punto Intimo</span>
+                    </div>
+                    <div class="trusted__client">
+                        <div class="trusted__logo-wrap">
+                            <img src="img/clients/placeholder-logo.svg" alt="Benestare" class="trusted__logo-img">
+                        </div>
+                        <span class="trusted__name">Benestare</span>
+                    </div>
+                    <div class="trusted__client">
+                        <div class="trusted__logo-wrap">
+                            <img src="img/clients/placeholder-logo.svg" alt="AgriFEL" class="trusted__logo-img">
+                        </div>
+                        <span class="trusted__name">AgriFEL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section class="case-studies" id="cases">
+        <div class="case-studies__container">
+            <div class="section-header reveal">
+                <span class="section-label">Casos de éxito</span>
+                <h2 class="section-title">Historias reales, impacto medible</h2>
+                <p class="section-subtitle">Conoce cómo ayudamos a nuestros clientes a escalar operaciones con soluciones hechas a medida.</p>
+            </div>
+
+            <div class="case-grid">
+                <article class="case-card reveal">
+                    <div class="case-card__header">
+                        <div class="case-card__logo">
+                            <img src="img/clients/placeholder-logo.svg" alt="Punto Intimo">
+                        </div>
+                        <div>
+                            <p class="case-card__company">Punto Intimo</p>
+                            <p class="case-card__service">Migración de datos + integración ERP</p>
+                        </div>
+                    </div>
+                    <p class="case-card__quote">“Con Alphnology pasamos de reportes manuales a decisiones diarias con datos confiables.”</p>
+                    <p class="case-card__person">María Gómez — Directora de Operaciones</p>
+                    <a href="case-punto-intimo.html" class="btn btn--secondary">Leer historia</a>
+                </article>
+
+                <article class="case-card reveal">
+                    <div class="case-card__header">
+                        <div class="case-card__logo">
+                            <img src="img/clients/placeholder-logo.svg" alt="Benestare">
+                        </div>
+                        <div>
+                            <p class="case-card__company">Benestare</p>
+                            <p class="case-card__service">Portal de reservas + pagos en linea</p>
+                        </div>
+                    </div>
+                    <p class="case-card__quote">“Duplicamos la conversión online y automatizamos el seguimiento de clientes.”</p>
+                    <p class="case-card__person">Carlos Peña — CEO</p>
+                    <a href="case-benestare.html" class="btn btn--secondary">Leer historia</a>
+                </article>
+
+                <article class="case-card reveal">
+                    <div class="case-card__header">
+                        <div class="case-card__logo">
+                            <img src="img/clients/placeholder-logo.svg" alt="AgriFEL">
+                        </div>
+                        <div>
+                            <p class="case-card__company">AgriFEL</p>
+                            <p class="case-card__service">Plataforma de trazabilidad agrícola</p>
+                        </div>
+                    </div>
+                    <p class="case-card__quote">“Ahora podemos rastrear cada lote en minutos y reducir pérdidas.”</p>
+                    <p class="case-card__person">Laura Martínez — Gerente de Logística</p>
+                    <a href="case-agrifel.html" class="btn btn--secondary">Leer historia</a>
+                </article>
+
+                <article class="case-card reveal">
+                    <div class="case-card__header">
+                        <div class="case-card__logo">
+                            <img src="img/clients/placeholder-logo.svg" alt="Lab. Arvelo">
+                        </div>
+                        <div>
+                            <p class="case-card__company">Lab. Arvelo</p>
+                            <p class="case-card__service">Sistema de reportes clínicos</p>
+                        </div>
+                    </div>
+                    <p class="case-card__quote">“Mejoramos los tiempos de entrega y la experiencia del paciente.”</p>
+                    <p class="case-card__person">Dr. Javier Arvelo — Director Médico</p>
+                    <a href="case-lab-arvelo.html" class="btn btn--secondary">Leer historia</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="industries" id="industries">
+        <div class="industries__container">
+            <div class="section-header reveal">
+                <span class="section-label">Industrias</span>
+                <h2 class="section-title">Experiencia aplicada en<br><span class="text-gradient">sectores clave</span></h2>
+                <p class="section-subtitle">Adaptamos tecnología y procesos según el contexto operativo de cada industria.</p>
+            </div>
+
+            <div class="industries__grid">
+                <article class="industry-card reveal">
+                    <div class="industry-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 11h18v9H3z"/>
+                            <path d="M7 11V7a5 5 0 0110 0v4"/>
+                            <path d="M12 14v3"/>
+                            <path d="M10.5 15.5h3"/>
+                        </svg>
+                    </div>
+                    <h3>Salud y laboratorios</h3>
+                    <p>Automatización de reportes clínicos, trazabilidad y cumplimiento regulatorio.</p>
+                </article>
+                <article class="industry-card reveal">
+                    <div class="industry-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 6h15l-1.5 9h-13z"/>
+                            <path d="M6 6l-2-3H1"/>
+                            <circle cx="9" cy="20" r="1"/>
+                            <circle cx="18" cy="20" r="1"/>
+                        </svg>
+                    </div>
+                    <h3>Retail y distribución</h3>
+                    <p>Integraciones ERP, control de inventario y analítica comercial.</p>
+                </article>
+                <article class="industry-card reveal">
+                    <div class="industry-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 3c4 3 6 6 6 9a6 6 0 11-12 0c0-3 2-6 6-9z"/>
+                            <path d="M12 9v12"/>
+                        </svg>
+                    </div>
+                    <h3>Agroindustria</h3>
+                    <p>Trazabilidad por lote, logística inteligente y alertas operativas.</p>
+                </article>
+                <article class="industry-card reveal">
+                    <div class="industry-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 21V7l8-4 8 4v14"/>
+                            <path d="M9 21v-6h6v6"/>
+                        </svg>
+                    </div>
+                    <h3>Servicios empresariales</h3>
+                    <p>Portales de clientes, automatización de procesos y BI para equipos ejecutivos.</p>
+                </article>
+                <article class="industry-card reveal">
+                    <div class="industry-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l9 4-9 4-9-4 9-4z"/>
+                            <path d="M3 10v8h18v-8"/>
+                            <path d="M7 18v-6M12 18v-6M17 18v-6"/>
+                        </svg>
+                    </div>
+                    <h3>Finanzas y seguros</h3>
+                    <p>Digitalización de flujos críticos, seguridad y trazabilidad.</p>
+                </article>
+                <article class="industry-card reveal">
+                    <div class="industry-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="7" width="18" height="10" rx="2"/>
+                            <path d="M7 7v10M17 7v10"/>
+                            <path d="M3 12h18"/>
+                        </svg>
+                    </div>
+                    <h3>Logística</h3>
+                    <p>Monitoreo de rutas, visibilidad en tiempo real y optimización de entregas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section - Bento Grid -->
+    <section class="services" id="services">
+        <div class="services__container">
+            <div class="section-header reveal">
+                <span class="section-label">Servicios</span>
+                <h2 class="section-title">Soluciones integrales para<br><span class="text-gradient">tu transformación digital</span></h2>
+                <p class="section-subtitle">Creamos soluciones, no solo software. Trabajamos codo a codo con nuestros clientes.</p>
+            </div>
+
+            <div class="bento">
+                <!-- Main Feature: Desarrollo de Software -->
+                <div class="bento__item bento__item--large reveal">
+                    <div class="bento__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="bento__title">Desarrollo de Software</h3>
+                    <p class="bento__text">Somos un equipo de profesionales enfocado en crear soluciones que impulsen el crecimiento de su negocio. Nuestro principio es desarrollar productos tecnológicos a la medida, apoyados en metodologías sólidas, controles de calidad y una ejecución eficiente.</p>
+                    <p class="bento__text">Diseñamos arquitecturas modulares y reutilizables que mejoran el mantenimiento, el rendimiento y la flexibilidad de sus aplicaciones. Colaboramos de cerca con su equipo para automatizar procesos e integrar servicios críticos.</p>
+                    <ul class="bento__list">
+                        <li>Desarrollo personalizado y automatización de procesos.</li>
+                        <li>Servicios web y APIs enfocadas en necesidades reales.</li>
+                        <li>Modularidad, granularidad y reutilización de componentes.</li>
+                        <li>Orquestadores de contenedores, nube privada, CI/CD y cobertura de código.</li>
+                    </ul>
+                    <div class="bento__tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Jakarta EE</span>
+                        <span class="tag">Spring Boot</span>
+                        <span class="tag">Quarkus</span>
+                        <span class="tag">Vaadin Flow</span>
+                        <span class="tag">Hibernate</span>
+                        <span class="tag">JPA</span>
+                        <span class="tag">Kafka</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                </div>
+
+                <!-- Apps Móviles -->
+                <div class="bento__item reveal">
+                    <div class="bento__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3 class="bento__title">Aplicaciones Móviles</h3>
+                    <p class="bento__text">Desarrollo de apps nativas y multiplataforma para iOS y Android con experiencias de usuario excepcionales.</p>
+                </div>
+
+                <!-- Migración ETL -->
+                <div class="bento__item reveal">
+                     <div class="bento__icon bento__icon--secondary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 019-9"/>
+                        </svg>
+                    </div>
+                    <h3 class="bento__title">Migración de Datos (ETL)</h3>
+                    <p class="bento__text">Pipelines robustos para extracción, transformación y carga de datos. Migraciones sin downtime con validación automática.</p>
+                </div>
+
+     
+
+                <!-- Consultoría Técnica -->
+                 <div class="bento__item bento__item--wide reveal">
+                    <div class="bento__icon bento__icon--secondary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="bento__title">Consultoría Técnica</h3>
+                    <p class="bento__text">Una buena selección y asesoría sobre los sistemas y herramientas tecnológicas es clave para que una organización prospere. Nuestro equipo pone su experiencia al servicio de sus objetivos, alineando necesidades con las capacidades reales del sistema.</p>
+                    <p class="bento__text">Levantamos requerimientos junto a su equipo y definimos la arquitectura y las herramientas más adecuadas. Este enfoque colaborativo asegura soluciones que su organización puede aprovechar por más tiempo, maximizando el retorno de la inversión.</p>
+                    <p class="bento__text">Según nuestra filosofía de servicio integral, podemos planificar, desarrollar soluciones a medida e implementar herramientas óptimas para su operación.</p>
+                </div>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services__grid reveal">
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72"/>
+                    </svg>
+                    <span>Telefonía VoIP</span>
+                </div>
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+                    </svg>
+                    <span>Administración de Servidores</span>
+                </div>
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                    </svg>
+                    <span>Administración de Base de Datos</span>
+                </div>
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+                    </svg>
+                    <span>Diseño Web</span>
+                </div>
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                    <span>Redes y Telecomunicaciones</span>
+                </div>
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+                    </svg>
+                    <span>Capacitación</span>
+                </div>
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                    <span>Gestión de Proyectos Tech</span>
+                </div>
+                <div class="service-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/>
+                    </svg>
+                    <span>Sistemas CMS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="products__container">
+            <div class="section-header reveal">
+                <span class="section-label">Productos</span>
+                <h2 class="section-title">Suite de productos<br><span class="text-gradient">listos para producción</span></h2>
+                <p class="section-subtitle">Soluciones SaaS diseñadas para resolver problemas reales de negocio.</p>
+            </div>
+
+            <div class="product-hero reveal">
+                <div class="product-hero__content">
+                    <span class="product-hero__badge">Producto estrella</span>
+                    <h3 class="product-hero__title">Nexto</h3>
+                    <p class="product-hero__subtitle">El sistema operativo de operaciones vía WhatsApp para empresas de servicios en tiempo real.</p>
+                    <p class="product-hero__text">Nexto conecta conversación y ejecución con un tablero Kanban inteligente, automatizaciones nativas y aprobaciones por chat para mover tu operación sin fricción.</p>
+                    <div class="product-hero__cta">
+                        <a href="#contact" class="btn btn--primary">Solicitar demo</a>
+                        <a href="#contact" class="btn btn--secondary">Agendar llamada</a>
+                    </div>
+                </div>
+                <div class="product-hero__panel">
+                    <h4>Casos de uso principales</h4>
+                    <ul class="product__features">
+                        <li>Flujos médicos y clínicos con recordatorios y recalls automatizados.</li>
+                        <li>Talleres y servicios automotrices con aprobaciones por WhatsApp.</li>
+                        <li>Eventos y ticketing con QR, control de acceso y soporte post-evento.</li>
+                    </ul>
+                    <h4>Características destacadas</h4>
+                    <ul class="product__features">
+                        <li>Smart Kanban Board y automatización por etapas.</li>
+                        <li>Integración nativa con WhatsApp API y plantillas interactivas.</li>
+                        <li>Sync 2-way con Google Calendar y Outlook.</li>
+                        <li>IA de voz a texto y analíticas de conversión.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="products__grid products__grid--four">
+                <!-- Octopus -->
+                <div class="product product--featured reveal">
+                    <div class="product__badge">Omnicanal</div>
+                    <div class="product__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="product__title">Octopus</h3>
+                    <p class="product__description">Plataforma omnicanal de gestión de conversaciones que conecta WhatsApp, Instagram, Facebook, Telegram, SMS, email y chat en vivo.</p>
+                    <ul class="product__features">
+                        <li>Bandeja de entrada omnicanal</li>
+                        <li>Chat en vivo en el sitio web</li>
+                        <li>Automatización inteligente</li>
+                        <li>Colaboración en equipo</li>
+                        <li>Etiquetas y notas privadas</li>
+                    </ul>
+                    <a href="#" class="product__link" data-modal="modal-octopus">
+                        Solicitar demo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- ChatBot -->
+                <div class="product product--featured reveal">
+                    <div class="product__badge">IA</div>
+                    <div class="product__icon product__icon--green">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
+                        </svg>
+                    </div>
+                    <h3 class="product__title">ChatBot</h3>
+                    <p class="product__description">SaaS para automatizar tareas e interactuar con clientes 24/7 con respuestas inmediatas y personalizadas.</p>
+                    <ul class="product__features">
+                        <li>Disponibilidad 24/7</li>
+                        <li>Atención personalizada</li>
+                        <li>Automatización de transacciones</li>
+                        <li>Integración con mensajería</li>
+                        <li>Fidelización y marketing</li>
+                    </ul>
+                    <a href="#" class="product__link" data-modal="modal-chatbot">
+                        Solicitar demo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- TalentHub Insight -->
+                <div class="product product--featured reveal">
+                    <div class="product__badge">RRHH</div>
+                    <div class="product__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="product__title">TalentHub Insight</h3>
+                    <p class="product__description">Sistema integral de RRHH y nómina con cumplimiento legal y fiscal en República Dominicana.</p>
+                    <ul class="product__features">
+                        <li>Gestión centralizada de RRHH</li>
+                        <li>Cálculo automático de nómina</li>
+                        <li>Cumplimiento legal y fiscal</li>
+                        <li>Portal de empleado vía WhatsApp</li>
+                        <li>Integración con ERP</li>
+                    </ul>
+                    <a href="#" class="product__link" data-modal="modal-talenthub-insight">
+                        Solicitar demo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- TimeSched -->
+                <div class="product product--featured reveal">
+                    <div class="product__badge">Salud</div>
+                    <div class="product__icon product__icon--green">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </div>
+                    <h3 class="product__title">TimeSched</h3>
+                    <p class="product__description">Gestión de citas para profesionales de la salud con control de agenda, cobros y experiencia del paciente.</p>
+                    <ul class="product__features">
+                        <li>Citas únicas o recurrentes</li>
+                        <li>Cancelaciones con cargos</li>
+                        <li>Asignación de consultorios</li>
+                        <li>Control de facturas y cobros</li>
+                        <li>Interacción vía WhatsApp</li>
+                    </ul>
+                    <a href="#" class="product__link" data-modal="modal-timesched">
+                        Solicitar demo
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="products__mini">
+                <p class="products__mini-title">Más productos</p>
+                <div class="products__mini-grid">
+                    <div class="product-mini">
+                        <span class="product-mini__icon"></span>
+                        <div>
+                            <p class="product-mini__name">Pulse</p>
+                            <p class="product-mini__desc">SaaS para la gestión de licencias de software on-premise.</p>
+                        </div>
+                    </div>
+                    <div class="product-mini">
+                        <span class="product-mini__icon"></span>
+                        <div>
+                            <p class="product-mini__name">Wootzap</p>
+                            <p class="product-mini__desc">Portal web para la gestión de números de WhatsApp no oficiales.</p>
+                        </div>
+                    </div>
+                    <div class="product-mini">
+                        <span class="product-mini__icon"></span>
+                        <div>
+                            <p class="product-mini__name">e-CF Gateway</p>
+                            <p class="product-mini__desc">SaaS de facturación electrónica.</p>
+                        </div>
+                    </div>
+                    <div class="product-mini">
+                        <span class="product-mini__icon"></span>
+                        <div>
+                            <p class="product-mini__name">Theodolite</p>
+                            <p class="product-mini__desc">SaaS especializado en la industria de topografía.</p>
+                        </div>
+                    </div>
+                    <div class="product-mini">
+                        <span class="product-mini__icon"></span>
+                        <div>
+                            <p class="product-mini__name">Care Wave</p>
+                            <p class="product-mini__desc">Gestión de citas para clínicas de atención inmediata.</p>
+                        </div>
+                    </div>
+                    <div class="product-mini">
+                        <span class="product-mini__icon"></span>
+                        <div>
+                            <p class="product-mini__name">B1 Copilot</p>
+                            <p class="product-mini__desc">Agente de IA para SAP B1.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="process__container">
+            <div class="section-header reveal">
+                <span class="section-label">Proceso</span>
+                <h2 class="section-title">Onboarding claro desde el<br><span class="text-gradient">día uno</span></h2>
+                <p class="section-subtitle">Un flujo de trabajo que reduce fricción y alinea expectativas desde el inicio.</p>
+            </div>
+
+            <div class="process__steps">
+                <div class="process-card reveal">
+                    <span class="process-card__step">01</span>
+                    <h3>Consulta inicial</h3>
+                    <p>Programamos una reunión para discutir objetivos, necesidades y expectativas.</p>
+                </div>
+                <div class="process-card reveal">
+                    <span class="process-card__step">02</span>
+                    <h3>Presentación de propuesta</h3>
+                    <p>Presentamos una propuesta personalizada con precios y detalles del proyecto.</p>
+                </div>
+                <div class="process-card reveal">
+                    <span class="process-card__step">03</span>
+                    <h3>Inicio del proyecto</h3>
+                    <p>Una vez aprobada la propuesta, iniciamos el proyecto con un equipo dedicado.</p>
+                </div>
+                <div class="process-card reveal">
+                    <span class="process-card__step">04</span>
+                    <h3>Actualizaciones periódicas</h3>
+                    <p>Compartimos avances del progreso y los hitos alcanzados.</p>
+                </div>
+                <div class="process-card reveal">
+                    <span class="process-card__step">05</span>
+                    <h3>Finalización del proyecto</h3>
+                    <p>Realizamos pruebas exhaustivas y entregamos todos los entregables.</p>
+                </div>
+                <div class="process-card reveal">
+                    <span class="process-card__step">06</span>
+                    <h3>Soporte continuo</h3>
+                    <p>Ofrecemos soporte y asistencia posteriores al lanzamiento según sea necesario.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="partners__container">
+            <div class="section-header reveal">
+                <span class="section-label">Socios Comerciales</span>
+                <h2 class="section-title">Alianzas que<br><span class="text-gradient">potencian resultados</span></h2>
+            </div>
+            <div class="partners__grid reveal">
+                <div class="partner">
+                    <div class="partner__name">Inforum</div>
+                    <div class="partner__desc">Transformamos empresas en Centroamérica y el Caribe</div>
+                </div>
+                <div class="partner">
+                    <div class="partner__name">FHONS</div>
+                    <div class="partner__desc">Soluciones Tecnológicas</div>
+                </div>
+                <div class="partner">
+                    <div class="partner__name">Gestión IT</div>
+                    <div class="partner__desc">Soluciones integrales y escalables</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="testimonials__container">
+            <div class="section-header reveal">
+                <span class="section-label">Testimonios</span>
+                <h2 class="section-title">Lo que dicen<br><span class="text-gradient">nuestros clientes</span></h2>
+                <p class="section-subtitle">Historias reales de empresas que transformaron sus operaciones con nuestras soluciones.</p>
+            </div>
+
+            <div class="testimonials__grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial reveal">
+                    <div class="testimonial__stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="testimonial__quote">
+                        "Alphnology transformó completamente nuestra gestión de citas. TimeSched nos permitió reducir las cancelaciones en un 40% y mejorar la experiencia de nuestros pacientes. El soporte técnico es excepcional."
+                    </blockquote>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">MC</div>
+                        <div class="testimonial__info">
+                            <div class="testimonial__name">María Castillo</div>
+                            <div class="testimonial__role">Directora - Benestare</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial testimonial--featured reveal">
+                    <div class="testimonial__badge">Cliente destacado</div>
+                    <div class="testimonial__stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="testimonial__quote">
+                        "Implementar TalentHub Insight fue la mejor decisión para nuestra empresa. La gestión de nómina que antes nos tomaba días, ahora se completa en horas. El cumplimiento con las leyes dominicanas está garantizado y el equipo de Alphnology siempre está disponible cuando lo necesitamos."
+                    </blockquote>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">RA</div>
+                        <div class="testimonial__info">
+                            <div class="testimonial__name">Roberto Almonte</div>
+                            <div class="testimonial__role">Gerente General - Grupo Almonte</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial reveal">
+                    <div class="testimonial__stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="testimonial__quote">
+                        "Octopus nos permitió centralizar todas las conversaciones con clientes en un solo lugar. Ahora respondemos 3 veces más rápido y no perdemos ningún mensaje. Nuestros clientes lo notan."
+                    </blockquote>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">JN</div>
+                        <div class="testimonial__info">
+                            <div class="testimonial__name">José Núñez</div>
+                            <div class="testimonial__role">Director Comercial - Grupo Nobe</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial reveal">
+                    <div class="testimonial__stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="testimonial__quote">
+                        "El ChatBot de Alphnology atiende consultas básicas las 24 horas. Redujimos la carga de nuestro equipo de soporte en un 60% y mejoramos la satisfacción del cliente."
+                    </blockquote>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">LG</div>
+                        <div class="testimonial__info">
+                            <div class="testimonial__name">Laura García</div>
+                            <div class="testimonial__role">Gerente de Operaciones - Seprisa</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="testimonial reveal">
+                    <div class="testimonial__stars">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="testimonial__quote">
+                        "Profesionales de verdad. La migración de datos fue impecable, sin pérdida de información y con mínimo tiempo de inactividad. Recomiendo Alphnology sin dudarlo."
+                    </blockquote>
+                    <div class="testimonial__author">
+                        <div class="testimonial__avatar">PA</div>
+                        <div class="testimonial__info">
+                            <div class="testimonial__name">Pedro Arvelo</div>
+                            <div class="testimonial__role">Director - Lab. Arvelo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about__container">
+            <!-- Mission & Vision -->
+            <div class="about__header reveal">
+                <span class="section-label">Sobre nosotros</span>
+                <h2 class="section-title">Creemos en el poder de las<br><span class="text-gradient">herramientas correctas</span></h2>
+            </div>
+
+            <div class="about__mission-vision reveal">
+                <div class="about__card about__card--mission">
+                    <div class="about__card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 16v-4M12 8h.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="about__card-title">Misión</h3>
+                    <p class="about__card-text">Transformar su negocio con soluciones tecnológicas innovadoras y personalizadas. Creemos en el poder de la tecnología para optimizar procesos, mejorar la eficiencia y abrir nuevas oportunidades de crecimiento.</p>
+                </div>
+                <div class="about__card about__card--vision">
+                    <div class="about__card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="about__card-title">Visión</h3>
+                    <p class="about__card-text">Empoderar a nuestros socios comerciales con las herramientas necesarias para cumplir sus objetivos y construir un futuro mejor.</p>
+                </div>
+            </div>
+
+            <!-- History -->
+            <div class="about__history reveal">
+                <div class="about__history-header">
+                    <h3 class="about__history-title">Nuestra Historia</h3>
+                    <div class="about__history-badge">
+                        <span class="about__history-year">2009</span>
+                        <span class="about__history-label">Desde</span>
+                    </div>
+                </div>
+
+                <div class="about__story">
+                    <p class="about__story-intro">
+                        Las alianzas tienden a formarse de las maneras más inesperadas, y más aún en los pasillos de las universidades, donde jóvenes con grandes ideas comparten sus pensamientos sobre el mundo que los rodea.
+                    </p>
+
+                    <div class="about__story-content">
+                        <p>
+                            Nuestra historia comienza con el encuentro de dos jóvenes amantes de la tecnología, ambos con ideas muy claras de lo que entendían faltaba en el mercado dominicano. La falta de herramientas tecnológicas de calidad los llevó por el camino del desarrollo de software, buscando proporcionar al mercado software de calidad.
+                        </p>
+                        <p>
+                            Comenzaron la aventura del desarrollo usando Java, específicamente con Java Swing. Con el paso de los años, entendieron que para crear una plataforma más robusta que les permitiera desarrollar proyectos más grandes en tamaño y calidad, necesitaban formalizar todo su proceso y añadir un tercer miembro al equipo — alguien con experiencia en áreas comerciales para complementar las mentes maestras detrás de los desarrollos.
+                        </p>
+                    </div>
+
+                    <div class="about__founders">
+                        <div class="about__founders-text">
+                            <p class="about__founders-intro">Somos <strong>Hector</strong> y <strong>Freddy</strong>, juntos formamos Alphnology.</p>
+                            <p>Una historia que comenzó con dos jóvenes desarrolladores de software en 2009, y ahora buscando con nuevas ideas y propuestas poder proporcionar múltiples servicios tecnológicos que permitan a nuestros colaboradores cumplir sus metas — todo esto a través de herramientas diseñadas y desarrolladas con el usuario siempre en mente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Principles -->
+            <div class="about__principles reveal">
+                <h3 class="about__principles-title">Principios Fundamentales</h3>
+
+                <div class="about__principles-grid">
+                    <div class="about__principle">
+                        <div class="about__principle-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h4>Software</h4>
+                        <ul>
+                            <li>Sistemas robustos y escalables</li>
+                            <li>Acoplamiento y cohesión entre elementos</li>
+                            <li>Fácil de mantener en el tiempo</li>
+                            <li>Usabilidad centrada en el usuario</li>
+                        </ul>
+                    </div>
+                    <div class="about__principle">
+                        <div class="about__principle-icon about__principle-icon--secondary">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                            </svg>
+                        </div>
+                        <h4>Servicio al Cliente</h4>
+                        <ul>
+                            <li>Servicios personalizados y de calidad</li>
+                            <li>Soporte preventivo y prematuro</li>
+                            <li>Eficiencia en resolución de problemas</li>
+                            <li>Comunicación transparente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Values -->
+            <div class="about__values reveal">
+                <h3 class="about__values-title">Nuestros Valores</h3>
+                <p class="about__values-subtitle">Creemos en nuestra misión y trabajamos hacia el futuro que queremos.</p>
+
+                <div class="about__values-grid">
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                            </svg>
+                        </div>
+                        <h4 class="about__value-title">Pasión</h4>
+                        <p class="about__value-text">Amamos lo que hacemos. Cada proyecto es una oportunidad para crear algo extraordinario.</p>
+                    </div>
+
+                    <div class="about__value">
+                        <div class="about__value-icon about__value-icon--alt">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h4 class="about__value-title">Calidad</h4>
+                        <p class="about__value-text">No hay atajos. Cada línea de código refleja nuestro compromiso con la excelencia.</p>
+                    </div>
+
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 11-7.778 7.778 5.5 5.5 0 017.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/>
+                            </svg>
+                        </div>
+                        <h4 class="about__value-title">Cambio</h4>
+                        <p class="about__value-text">Abrazamos la evolución. La tecnología avanza y nosotros con ella.</p>
+                    </div>
+
+                    <div class="about__value">
+                        <div class="about__value-icon about__value-icon--alt">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h4 class="about__value-title">Integridad</h4>
+                        <p class="about__value-text">Transparencia total. Hacemos lo correcto, incluso cuando nadie está mirando.</p>
+                    </div>
+
+                    <div class="about__value">
+                        <div class="about__value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h4 class="about__value-title">Productividad</h4>
+                        <p class="about__value-text">Resultados, no excusas. Optimizamos cada proceso para entregar más valor.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="about__stats reveal">
+                <div class="about__stat">
+                    <span class="about__stat-number">2009</span>
+                    <span class="about__stat-label">Año de inicio</span>
+                </div>
+                <div class="about__stat">
+                    <span class="about__stat-number">Santiago, RD</span>
+                    <span class="about__stat-label">Headquarters</span>
+                </div>
+                <div class="about__stat">
+                    <span class="about__stat-number">15+</span>
+                    <span class="about__stat-label">Años de experiencia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="faq__container">
+            <div class="section-header reveal">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Respuestas rápidas para<br><span class="text-gradient">tomar decisiones</span></h2>
+                <p class="section-subtitle">Te ayudamos a despejar dudas antes de iniciar un proyecto.</p>
+            </div>
+
+            <div class="faq__list">
+                <details class="faq-item reveal">
+                    <summary>¿Cuánto tiempo toma iniciar un proyecto?</summary>
+                    <p>Después del diagnóstico, en 1 a 2 semanas podemos comenzar con un plan claro y un cronograma realista.</p>
+                </details>
+                <details class="faq-item reveal">
+                    <summary>¿Cómo funciona el onboarding?</summary>
+                    <p>Realizamos discovery, definimos roadmap y alineamos responsables. Luego iniciamos entregas iterativas con validación continua.</p>
+                </details>
+                <details class="faq-item reveal">
+                    <summary>¿Trabajan con equipos internos del cliente?</summary>
+                    <p>Sí. Nos integramos a equipos existentes o trabajamos end-to-end según la necesidad.</p>
+                </details>
+                <details class="faq-item reveal">
+                    <summary>¿Qué tipo de soporte ofrecen post-lanzamiento?</summary>
+                    <p>Incluye monitoreo, mejoras evolutivas y soporte preventivo para mantener el rendimiento.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta__container reveal">
+            <div class="cta__gradient"></div>
+            <h2 class="cta__title">¿Listo para escalar?</h2>
+            <p class="cta__text">Agenda una llamada de 30 minutos. Sin compromiso. Sin pitch de ventas. Solo una conversación técnica sobre tu proyecto.</p>
+            <a href="#contact" class="btn btn--primary btn--large">
+                Agendar llamada gratuita
+                <svg width="20" height="20" viewBox="0 0 16 16" fill="none">
+                    <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact__container">
+            <div class="contact__info reveal">
+                <span class="section-label">Contacto</span>
+                <h2 class="section-title">Hablemos de<br><span class="text-gradient">tu proyecto</span></h2>
+
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <a href="mailto:info@alphnology.com">info@alphnology.com</a>
+                    </div>
+                    <div class="contact__item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                        </svg>
+                        <a href="tel:+18092151611">+1 809 215 1611</a>
+                    </div>
+                    <div class="contact__item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Santiago de los Caballeros, RD</span>
+                    </div>
+                </div>
+
+                <div class="contact__social">
+                    <a href="#" class="contact__social-link" aria-label="WhatsApp">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="contact__social-link" aria-label="Telegram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="contact__social-link" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <form class="contact__form reveal" id="contactForm">
+                <div class="form__group">
+                    <label for="name" class="form__label">Nombre</label>
+                    <input type="text" id="name" name="name" class="form__input" placeholder="Tu nombre" required>
+                </div>
+                <div class="form__group">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="email" id="email" name="email" class="form__input" placeholder="tu@email.com" required>
+                </div>
+                <div class="form__group">
+                    <label for="company" class="form__label">Empresa (opcional)</label>
+                    <input type="text" id="company" name="company" class="form__input" placeholder="Tu empresa">
+                </div>
+                <div class="form__group">
+                    <label for="message" class="form__label">¿En qué podemos ayudarte?</label>
+                    <textarea id="message" name="message" class="form__input form__textarea" placeholder="Cuéntanos sobre tu proyecto..." rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full">
+                    Enviar mensaje
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M14 2L7 9M14 2l-4 12-3-5-5-3 12-4z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <a href="index.html" class="footer__logo">
+                        <img src="img/logo.png" alt="Alphnology" class="footer__logo-img" width="279" height="60">
+                    </a>
+                    <p class="footer__tagline">Ingeniería de software que escala tu visión.</p>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Navegación</h4>
+                        <a href="#cases">Casos de éxito</a>
+                        <a href="#industries">Industrias</a>
+                        <a href="#services">Servicios</a>
+                        <a href="#products">Productos</a>
+                        <a href="#process">Proceso</a>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Casos</h4>
+                        <a href="case-punto-intimo.html">Punto Intimo</a>
+                        <a href="case-benestare.html">Benestare</a>
+                        <a href="case-agrifel.html">AgriFEL</a>
+                        <a href="case-lab-arvelo.html">Lab. Arvelo</a>
+                    </div>
+                    <div class="footer__column">
+                        <h4 class="footer__heading">Empresa</h4>
+                        <a href="#about">Nosotros</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="#contact">Contacto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; <span id="currentYear"></span> Alphnology. Todos los derechos reservados.</p>
+                <p class="footer__location">Santiago de los Caballeros, República Dominicana</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modals -->
+    <!-- Octopus Modal -->
+    <div class="modal" id="modal-octopus">
+        <div class="modal__overlay" data-close-modal></div>
+        <div class="modal__container">
+            <button class="modal__close" data-close-modal aria-label="Cerrar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+
+            <div class="modal__header">
+                <div class="modal__icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="modal__badge">Plataforma Omnicanal</span>
+                    <h2 class="modal__title">Octopus</h2>
+                </div>
+            </div>
+
+            <div class="modal__body">
+                <p class="modal__description">
+                    Octopus es una plataforma omnicanal de gestión de conversaciones que conecta a las empresas con sus clientes a través de diversos canales de comunicación como <strong>WhatsApp, Instagram, Facebook, Telegram, SMS, correo electrónico y chat en vivo</strong> en el sitio web.
+                </p>
+                <p class="modal__description">
+                    Con características como chat en vivo, colaboración en equipo, automatización de tareas y bandeja de entrada omnicanal, Octopus ofrece una solución integral y versátil para la gestión eficiente de conversaciones en línea.
+                </p>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Casos de Uso</h3>
+                    <div class="modal__use-cases">
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+                            </svg>
+                            <span>Gestión Omnicanal de Conversaciones</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                            </svg>
+                            <span>Automatización de Tareas Repetitivas</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+                            </svg>
+                            <span>Chat en Vivo en el Sitio Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Características</h3>
+                    <div class="modal__features">
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Bandeja de Entrada Omnicanal
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Automatización Inteligente
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Chat en Vivo en el Sitio Web
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Colaboración en Equipo
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Integración con Chatbots
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Etiquetas y Notas Privadas
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Horario Comercial
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Respuestas Predefinidas
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Reportes de Rendimiento
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Aplicación Móvil
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal__footer">
+                <a href="#contact" class="btn btn--primary" data-close-modal>
+                    Solicitar Demo
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ChatBot Modal -->
+    <div class="modal" id="modal-chatbot">
+        <div class="modal__overlay" data-close-modal></div>
+        <div class="modal__container">
+            <button class="modal__close" data-close-modal aria-label="Cerrar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+
+            <div class="modal__header">
+                <div class="modal__icon modal__icon--green">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="modal__badge modal__badge--green">Inteligencia Artificial</span>
+                    <h2 class="modal__title">ChatBot</h2>
+                </div>
+            </div>
+
+            <div class="modal__body">
+                <p class="modal__description">
+                    El ChatBot es una aplicación de software diseñada para realizar tareas automatizadas sin intervención manual. Interactúa con los clientes <strong>las 24 horas del día, los 7 días de la semana</strong>, ofreciendo respuestas inmediatas y personalizadas.
+                </p>
+                <p class="modal__description">
+                    Realiza transacciones instantáneas y promueve la satisfacción del cliente y la eficiencia operativa de la institución.
+                </p>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Casos de Uso</h3>
+                    <div class="modal__use-cases">
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                            </svg>
+                            <span>Atención al Cliente 24/7</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                            <span>Automatización de Transacciones</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                            </svg>
+                            <span>Fidelización y Marketing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Características</h3>
+                    <div class="modal__features">
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Disponibilidad 24/7
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Atención Personalizada
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Automatización de Transacciones
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Integración con Plataformas de Mensajería
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Promociones y Marketing
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Personalización de la Experiencia
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal__footer">
+                <a href="#contact" class="btn btn--primary btn--green" data-close-modal>
+                    Solicitar Demo
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TalentHub Insight Modal -->
+    <div class="modal" id="modal-talenthub-insight">
+        <div class="modal__overlay" data-close-modal></div>
+        <div class="modal__container">
+            <button class="modal__close" data-close-modal aria-label="Cerrar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+
+            <div class="modal__header">
+                <div class="modal__icon">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="modal__badge">Recursos Humanos</span>
+                    <h2 class="modal__title">TalentHub Insight</h2>
+                </div>
+            </div>
+
+            <div class="modal__body">
+                <p class="modal__description">
+                    TalentHub Insight es un sistema integral diseñado para gestionar eficazmente el capital humano, reconocido como el activo más valioso dentro de una empresa. <strong>Cumple con los requisitos legales y fiscales de la República Dominicana</strong>.
+                </p>
+                <p class="modal__description">
+                    Ofrece soluciones confiables y compatibles para la gestión de recursos humanos y nómina. Con módulos dedicados a Recursos Humanos y Nómina, TalentHub Insight optimiza la administración de empleados, incluyendo mantenimiento de datos, gestión de nóminas, y generación de informes.
+                </p>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Casos de Uso</h3>
+                    <div class="modal__use-cases">
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                            </svg>
+                            <span>Gestión Centralizada de Recursos Humanos</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/>
+                            </svg>
+                            <span>Procesamiento de Nómina Simplificado</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                            <span>Cumplimiento Legal y Fiscal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Características</h3>
+                    <div class="modal__features">
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Mantenimiento de datos maestros
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Seguimiento de historiales de empleados
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Generación de informes detallados
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Cálculo automático de salarios y deducciones
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Gestión de vacaciones e impuestos
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Portal de Empleado vía WhatsApp
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Integración con ERP y plataformas externas
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal__footer">
+                <a href="#contact" class="btn btn--primary" data-close-modal>
+                    Solicitar Demo
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TimeSched Modal -->
+    <div class="modal" id="modal-timesched">
+        <div class="modal__overlay" data-close-modal></div>
+        <div class="modal__container">
+            <button class="modal__close" data-close-modal aria-label="Cerrar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+
+            <div class="modal__header">
+                <div class="modal__icon modal__icon--green">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="modal__badge modal__badge--green">Sector Salud</span>
+                    <h2 class="modal__title">TimeSched</h2>
+                </div>
+            </div>
+
+            <div class="modal__body">
+                <p class="modal__description">
+                    TimeSched es una solución integral de gestión de citas diseñada para <strong>profesionales de la salud</strong>. Optimiza la agenda, mejora la organización y eleva la eficiencia operativa.
+                </p>
+                <p class="modal__description">
+                    Proporciona una experiencia excepcional tanto para el personal médico como para los pacientes, con características como flexibilidad en la programación, gestión de cancelaciones, asignación de consultorios y control de facturación.
+                </p>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Casos de Uso</h3>
+                    <div class="modal__use-cases">
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>
+                            </svg>
+                            <span>Gestión de Citas Eficiente</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 12a9 9 0 11-6.219-8.56"/>
+                            </svg>
+                            <span>Seguimiento de Citas Recurrentes</span>
+                        </div>
+                        <div class="modal__use-case">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/>
+                            </svg>
+                            <span>Coordinación entre Profesionales</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Características</h3>
+                    <div class="modal__features">
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Citas únicas o recurrentes
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Cancelaciones con cargos automáticos
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Asignación de consultorios a especialistas
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Visualización de citas por consultorios
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Historial de pacientes
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Control integral de facturas y cobros
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Informes gráficos para toma de decisiones
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Interacción a través de WhatsApp
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Gestión de comisiones de terapeutas
+                        </div>
+                        <div class="modal__feature">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+                            Control de anticipos y lista de espera
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal__footer">
+                <a href="#contact" class="btn btn--primary btn--green" data-close-modal>
+                    Solicitar Demo
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
